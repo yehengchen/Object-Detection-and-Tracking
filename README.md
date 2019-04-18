@@ -45,6 +45,7 @@ In Pascal VOC2008, an average for the 11-point interpolated AP is calculated.
 First, we divide the recall value from 0 to 1.0 into 11 points — 0, 0.1, 0.2, …, 0.9 and 1.0. Next, we compute the average of maximum precision value for these 11 recall values.
 
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1-1.jpeg)
+
 In our example, AP = (5 × 1.0 + 4 × 0.57 + 2 × 0.5)/11
 
 Here are the more precise mathematical definitions.
