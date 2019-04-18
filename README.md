@@ -7,19 +7,18 @@
 AP (Average precision) is a popular metric in measuring the accuracy of object detectors like Faster R-CNN, SSD, etc. Average precision computes the average precision value for recall value over 0 to 1. It sounds complicated but actually pretty simple as we illustrate it with an example. But before that, we will do a quick recap on precision, recall, and IoU first.
 
 ### Precision & recall
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1%20.png" width = "100" height = "100" div align=center />
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1%20.png)
 
 * Precision measures how accurate is your predictions. i.e. the percentage of your predictions are correct.
   
       Precision: TP / (TP + FP)
       (TP + FP) = Total Positive Result
-      
 
 * Recall measures how good you find all the positives. For example, we can find 80% of the possible positive cases in our top K predictions.
       
       Recall: TP / (TP + FN)
       (TP + FN) = Total Case
-      
       
 1. TP / True Positive: case was positive and predicted positive (IoU>0.5)
 2. TN / True Negative: case was negative and predicted negative
@@ -28,6 +27,7 @@ AP (Average precision) is a popular metric in measuring the accuracy of object d
       
 *Precision是确定分类器中断言为正样本的部分其实际中属于正样本的比例，精度越高则假的正例就越低，Recall则是被分类器正确预测的正样本的比例。
 两者是一对矛盾的度量，其可以合并成令一个度量F1.*
+
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/F1.png)
 
 
@@ -44,10 +44,12 @@ In Pascal VOC2008, an average for the 11-point interpolated AP is calculated.
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1-2.jpeg)
 
 First, we divide the recall value from 0 to 1.0 into 11 points — 0, 0.1, 0.2, …, 0.9 and 1.0. Next, we compute the average of maximum precision value for these 11 recall values.
+
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1-1.jpeg)
 In our example, AP = (5 × 1.0 + 4 × 0.57 + 2 × 0.5)/11
 
 Here are the more precise mathematical definitions.
+
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/ap.png)
 
 When APᵣ turns extremely small, we can assume the remaining terms to be zero. i.e. we don’t necessarily make predictions until the recall reaches 100%. 
