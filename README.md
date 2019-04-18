@@ -6,7 +6,7 @@
 ### AP
 AP (Average precision) is a popular metric in measuring the accuracy of object detectors like Faster R-CNN, SSD, etc. Average precision computes the average precision value for recall value over 0 to 1. It sounds complicated but actually pretty simple as we illustrate it with an example. But before that, we will do a quick recap on precision, recall, and IoU first.
 
-![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1.png)
+![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1 .png)
 
 ### Precision & recall
 
