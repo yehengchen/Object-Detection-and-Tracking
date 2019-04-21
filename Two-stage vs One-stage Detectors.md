@@ -1,5 +1,5 @@
 # Two-stage vs One-stage Detectors
-Two-stage vs One-stage Detectors video ![[Youtube]](https://www.youtube.com/watch?v=V4P_ptn2FF4)
+### Two-stage vs One-stage [[YouTube]](https://www.youtube.com/watch?v=V4P_ptn2FF4)
 ### Two-stage Detectors
 -_Models in the R-CNN family are all region-based._
 * (1) First, the model proposes a set of regions of interests by select search or regional proposal network. The proposed regions are sparse as the potential bounding box candidates can be infinite. 
