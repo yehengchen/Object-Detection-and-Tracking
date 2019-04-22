@@ -4,7 +4,7 @@
 ### Two-stage Detectors
 *找出物体（Region Proposals） -> 识别物体（Object Recognition）*
 
--_Models in the R-CNN family are all region-based._ - [[R-CNN]]()
+-__Models in the R-CNN family are all region-based. - [[R-CNN]]()__
 * First, the model proposes a set of regions of interests by select search or regional proposal network. The proposed regions are sparse as the potential bounding box candidates can be infinite. 
 * Then a classifier only processes the region candidates.
 
@@ -16,9 +16,9 @@
 ### One-stage Detectors
 *找出物体同时识别物体 - Detecting objects in images using a single deep neural network*
 
--YOLO (You only look once): YOLOv1, YOLOv2, YOLOv3, Tiny YOLO - [[YOLO]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo.md)
+-__YOLO (You only look once): YOLOv1, YOLOv2, YOLOv3, Tiny YOLO - [[YOLO]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo.md)__
 
--Single Shot Detector (SSD) - [[SSD]]()
+-__Single Shot Detector (SSD) - [[SSD]]()__
 
 * Single convolutional network predicts the bounding boxes and the class probabilities for these boxes.
 
