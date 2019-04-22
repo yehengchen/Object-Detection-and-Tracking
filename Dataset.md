@@ -3,7 +3,7 @@
 
 #### Browse > Computer Vision > Object Detection - [[Link]](https://paperswithcode.com/task/object-detection)
 
-## COCO
+# COCO
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/coco.png)
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/coco_yolo.png)
 
@@ -30,7 +30,8 @@ COCO has several features:
 * Download the [2017 Test images](http://images.cocodataset.org/zips/test2017.zip) [41K/6GB]
 * COCO API/[PythonAPI](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI)
 
-## VOC2007
+
+# VOC2007
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc.png)
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc_yolo.png)
 
