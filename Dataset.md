@@ -4,6 +4,7 @@
 #### Browse > Computer Vision > Object Detection - [[Link]](https://paperswithcode.com/task/object-detection)
 
 ## COCO
+![](https://github.com/yehengchen/ObjectDetection/blob/master/img/coco.png)
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/coco_yolo.png)
 
 *COCO is an image dataset designed to spur object detection research with a focus on detecting objects in context. The annotations include instance segmentations for object belonging to 80 categories, stuff segmentations for 91 categories, keypoint annotations for person instances, and five image captions per image.*
@@ -20,10 +21,16 @@ COCO has several features:
     91 stuff categories
     5 captions per image
     250,000 people with keypoints
-    
-    
+
+### COCO2017 Data
+
+* Download the [2017 Train images](http://images.cocodataset.org/zips/train2017.zip) [118K/18GB]
+* Download the [2017 Val images](http://images.cocodataset.org/zips/val2017.zip) [5K/1GB]
+* Download the [2017 Test images](http://images.cocodataset.org/zips/test2017.zip) [41K/6GB]
+* COCO API/[PythonAPI](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI)
 
 ## VOC2007
+![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc.png)
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc_yolo.png)
 
 *It is with great sadness that we report that Mark Everingham died in 2012. Mark was the key member of the VOC project, and it would have been impossible without his selfless contributions.*
@@ -53,7 +60,10 @@ The annotated test data for the VOC challenge 2007 is now available:
 * Download the [annotated test data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar) (430MB tar file)
 * Download the [annotation only](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtestnoimgs_06-Nov-2007.tar) (12MB tar file, no images)
 
+
 ## References
 ECCV 2018 Joint COCO and Mapillary Recognition - [[Link]](http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html)
 
 The PASCAL Visual Object Classes Challenge 2007 - [[Link]](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html)
+
+Object detection: speed and accuracy comparison - [[Link]](https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359)
