@@ -16,11 +16,12 @@
 ### One-stage Detectors
 *找出物体同时识别物体 - Detecting objects in images using a single deep neural network*
 
-Single convolutional network predicts the bounding boxes and the class probabilities for these boxes.
-
 -YOLO (You only look once): YOLOv1, YOLOv2, YOLOv3, Tiny YOLO - [[YOLO]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo.md)
 
 -Single Shot Detector (SSD) - [[SSD]]()
+
+* Single convolutional network predicts the bounding boxes and the class probabilities for these boxes.
+
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/one_stage.png)
 
 ## Two-stage vs One-stage Detectors
