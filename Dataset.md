@@ -7,6 +7,7 @@
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/coco.png)
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/coco_yolo.png)
 
+### Introduction
 *COCO is an image dataset designed to spur object detection research with a focus on detecting objects in context. The annotations include instance segmentations for object belonging to 80 categories, stuff segmentations for 91 categories, keypoint annotations for person instances, and five image captions per image.*
 
 COCO is a large-scale object detection, segmentation, and captioning dataset. 
@@ -33,9 +34,9 @@ COCO has several features:
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc.png)
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc_yolo.png)
 
-*It is with great sadness that we report that Mark Everingham died in 2012. Mark was the key member of the VOC project, and it would have been impossible without his selfless contributions.*
-
-The goal of this challenge is to recognize objects from a number of visual object classes in realistic scenes (i.e. not pre-segmented objects). It is fundamentally a supervised learning learning problem in that a training set of labelled images is provided. The twenty object classes that have been selected are: 
+### Introduction
+*The goal of this challenge is to recognize objects from a number of visual object classes in realistic scenes (i.e. not pre-segmented objects). It is fundamentally a supervised learning learning problem in that a training set of labelled images is provided.*
+The twenty object classes that have been selected are:
 
     Statistics
     20 classes:
