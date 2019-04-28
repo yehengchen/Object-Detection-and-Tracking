@@ -4,7 +4,7 @@
 ### Two-stage Detectors
 *找出物体（Region Proposals） -> 识别物体（Object Recognition）*
 
--__Models in the R-CNN family are all region-based. - [[R-CNN]]()__
+-__Models in the R-CNN family are all region-based - [[R-CNN]]()__
 * First, the model proposes a set of regions of interests by select search or regional proposal network. The proposed regions are sparse as the potential bounding box candidates can be infinite. 
 * Then a classifier only processes the region candidates.
 
