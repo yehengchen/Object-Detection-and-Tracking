@@ -1,5 +1,3 @@
-# ObjectDetectionNote
-
 ## mAP
 *mAP (mean average precision) is the average of AP. In some context, we compute the AP for each class and average them. But in some context, they mean the same thing.*
 
