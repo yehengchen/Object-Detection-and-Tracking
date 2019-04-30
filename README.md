@@ -17,4 +17,5 @@
 #### SSD: Single Shot MultiBox Detector - [[Link]]()
 
 ## TwoStage
-#### RCNN / Fast-RCNN / Faster-RCNN
+#### Region-based methods: R-CNN
+
