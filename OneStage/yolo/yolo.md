@@ -12,6 +12,31 @@ YOLOv3 On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% 
 |YOLOv3-608|COCO trainval|test-dev| 57.9 | 20 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) | [weights](https://pjreddie.com/media/files/yolov3.weights)||
 |YOLOv3-tiny|COCO trainval|test-dev| 33.1 | 220 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg) | [weights](https://pjreddie.com/media/files/yolov3-tiny.weights)||
 
+***
+## YOLOv1
+*You Only Look Once:Unified, Real-Time Object Detection - [[Paper]](https://arxiv.org/pdf/1506.02640.pdf)*
+![The YOLO Detection System](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1.png)
+
+Processing imageswith YOLO is simple and straightforward. 
+* (1) resizesthe input image to 448×448.
+* (2) runs a single convolutional network on the image.
+* (3) thresholds the resulting detections bythe model’s confidence.
+
+![The Model](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1_1.png)
+
+It divides the image into an S × S grid and for each grid cell predicts B bounding boxes, confidence for those boxes,
+and C class probabilities.These predictions are encoded as an __S × S × (B ∗ 5 + C)__ tensor.
+For evaluating YOLO on P ASCAL VOC, They use S = 7, B = 2. P ASCAL VOC has 20 labelled classes so C = 20.
+The final prediction is a 7 × 7 × 30 tensor.
+
+__b :confidence as Pr(Object) ∗ IOU (truth | pred)__
+    
+    If no object exists in that cell, the confidence scores should be zero.
+    intersection over union (IOU) between the predicted box and the ground truth.
+    
+__c :class probabilities, Pr(Class i |Object)__
+
+__Pr(Class i |Object) ∗ Pr(Object) ∗ IOU(truth | pred) = Pr(Class i ) ∗ IOU(truth | pred)__
 
 ***
 ## YOLOv2
