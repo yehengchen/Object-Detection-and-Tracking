@@ -58,7 +58,8 @@ When APᵣ turns extremely small, we can assume the remaining terms to be zero. 
 
 ***
 ### COCO mAP - [[cocodataset]](http://cocodataset.org/#detection-eval)
-__COCO vs VOC - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/COCO%20and%20Pascal%20VOC.md)__
+### __COCO vs VOC - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/COCO%20and%20Pascal%20VOC.md)__
+
 Latest research papers tend to give results for the COCO dataset only. In COCO mAP, a 101-point interpolated AP definition is used in the calculation. For COCO, AP is the average over multiple IoU (the minimum IoU to consider a positive match). AP@[.5:.95] corresponds to the average AP for IoU from 0.5 to 0.95 with a step size of 0.05. For the COCO competition, AP is the average over 10 IoU levels on 80 categories (AP@[.50:.05:.95]: start from 0.5 to 0.95 with a step size of 0.05). The following are some other metrics collected for the COCO dataset.
 
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/fig3.png" width="80%" height="80%">
