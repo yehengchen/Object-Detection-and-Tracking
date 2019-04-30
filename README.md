@@ -7,7 +7,8 @@
 AP (Average precision) is a popular metric in measuring the accuracy of object detectors like Faster R-CNN, SSD, etc. Average precision computes the average precision value for recall value over 0 to 1. It sounds complicated but actually pretty simple as we illustrate it with an example. But before that, we will do a quick recap on precision, recall, and IoU first.
 
 ### Precision & recall
-![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1%20.png)
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/fig1%20.png" width="40%" height="40%">
+
 
 * Precision measures how accurate is your predictions. i.e. the percentage of your predictions are correct.
   
@@ -57,9 +58,8 @@ When APᵣ turns extremely small, we can assume the remaining terms to be zero. 
 ### COCO mAP - [[cocodataset]](http://cocodataset.org/#detection-eval)
 Latest research papers tend to give results for the COCO dataset only. In COCO mAP, a 101-point interpolated AP definition is used in the calculation. For COCO, AP is the average over multiple IoU (the minimum IoU to consider a positive match). AP@[.5:.95] corresponds to the average AP for IoU from 0.5 to 0.95 with a step size of 0.05. For the COCO competition, AP is the average over 10 IoU levels on 80 categories (AP@[.50:.05:.95]: start from 0.5 to 0.95 with a step size of 0.05). The following are some other metrics collected for the COCO dataset.
 
-![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig3.png)
-
-![](https://github.com/yehengchen/ObjectDetection/blob/master/img/fig4.png)
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/fig3.png" width="80%" height="80%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/fig4.png" width="80%" height="80%">
 
 In the figure above, AP@.75 means the AP with IoU=0.75.
 
