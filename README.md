@@ -3,7 +3,7 @@
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/Object-Detection-Deep-Learning.jpg" width="90%" height="90%">
 
 ## Paper list from 2014 to now(2019)
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/deep_learning_object_detection_history.PNG" width="40%" height="40%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/deep_learning_object_detection_history.PNG" width="45%" height="45%">
 
 #### PapersWithCode: Browse > Computer Vision > Object Detection - [[Link]](https://paperswithcode.com/task/object-detection)
 
