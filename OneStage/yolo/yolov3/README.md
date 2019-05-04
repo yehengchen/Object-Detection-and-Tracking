@@ -1,5 +1,4 @@
 # YOLOv3
-## Geting start
 ### Download the source code
     git clone https://github.com/pjreddie/darknet
     cd darknet
