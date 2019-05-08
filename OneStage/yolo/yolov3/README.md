@@ -56,12 +56,19 @@ __Run voc_label.py can get below file__
       names = /home/cai/darknet/obj_detect/obj_voc.names #boat_voc.names路径
       backup = /home/cai/darknet/obj_detect/backup/ #建一个backup文件夹用于存放中间结果
  * __.cgf__
- *cfg folder yolov3-voc.cfg - [yolov3-voc.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/yolov3-voc.cfg)*
-* 
+ *cfg folder yolov3-voc.cfg - __[yolov3-voc.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/yolov3-voc.cfg)__*
+
 ## 4. Download pre-taining weights
     wget https://pjreddie.com/media/files/darknet53.conv.74
 ## 5. Training
     ./darknet detector train obj_detect/obj_voc.data obj_detect/yolov3-voc.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log 
+
+#### visualization log
+    
+    python3 extract_log.py
+    python3 visualization_loss.py
+    python3 visualization_iou.py
+
 ## 6. Testing
 ### ImgTesting
     ./darknet detector test ./obj_detect/obj_voc.data ./obj_detect/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test_data/test_img.jpg
