@@ -37,15 +37,16 @@ Python 3 + Qt5
 
 ## 2. Make .txt file
 
-* train.txt:存放用于训练的图片的名字，每行一个名字（不带后缀.jpg）。
+* train.txt:写入用于训练图片的名字，每行一个名字（不带后缀.jpg）。
 
-* val.txt:存放用于验证的图片的名字，每行一个名字（不带后缀.jpg）。
+* val.txt:写入用于验证图片的名字，每行一个名字（不带后缀.jpg）。
+
 
 __Run voc_label.py can get below file__
 
-* obj_train.txt:存放用于训练的图片的绝对路径，每行一个路径。
+* obj_train.txt:写入用于训练图片的绝对路径，每行一个路径。
 
-* obj_val.txt:存放用于验证的图片的绝对路径，每行一个路径。
+* obj_val.txt:写入用于验证图片的绝对路径，每行一个路径。
 
 ## 3. Make .names .cgf and .data file 
 * __.names [classes name]__
@@ -54,9 +55,9 @@ __Run voc_label.py can get below file__
 *cfg folder voc.data*
      
       classes= 5  #类别数
-      valid  = /home/cai/darknet/obj_detect/obj_val.txt  #boat_val.txt路径
-      names = /home/cai/darknet/obj_detect/obj_voc.names #boat_voc.names路径
-      backup = /home/cai/darknet/obj_detect/backup/ #建一个backup文件夹用于存放中间结果
+      valid  = /home/cai/darknet/obj_detect/obj_val.txt  #objt_val.txt路径
+      names = /home/cai/darknet/obj_detect/obj_voc.names #obj_voc.names路径
+      backup = /home/cai/darknet/obj_detect/backup/ #建一个backup文件夹用于存放weights结果
  * __.cgf__
  *cfg folder yolov3-voc.cfg - __[yolov3-voc.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/yolov3-voc.cfg)__*
 
