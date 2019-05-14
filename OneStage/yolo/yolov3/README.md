@@ -31,9 +31,9 @@ Python 3 + Qt5
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
-* [JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Put all img in this folder]
-* [Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Put all labeled .xml file in this folder]
-* [labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) [Put all labeled .txt file in this folder]
+* __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Put all img in this folder]__
+* __[Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Put all labeled .xml file in this folder]__
+* __[labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) [Put all labeled .txt file in this folder]__
 
 ## 2. Make .txt file
 
@@ -51,16 +51,34 @@ __Run voc_label.py can get below file__
 ## 3. Make .names .cgf and .data file 
 * __.names [classes name]__
 *data folder voc.names*
+
+      people 
+      fire_extinguisher
+      fireplug
+      car
+      bicycle
+      motorcycle  
+
 * __.data__ 
 *cfg folder voc.data*
      
-      classes= 5  #类别数
-      valid  = /home/cai/darknet/obj_detect/obj_val.txt  #objt_val.txt路径
-      names = /home/cai/darknet/obj_detect/obj_voc.names #obj_voc.names路径
-      backup = /home/cai/darknet/obj_detect/backup/ #建一个backup文件夹用于存放weights结果
+      classes= 6  #类别数
+      train = /home/cai/Desktop/yolo_dataset/objectdetection/object_train.txt #obj_train.txt路径
+      valid = /home/cai/Desktop/yolo_dataset/objectdetection/object_val.txt  #obj_val.txt路径
+      names = /home/cai/Desktop/yolo_dataset/objectdetection/yolo3_object.names #obj_voc.names路径
+      backup = /home/cai/Desktop/yolo_dataset/objectdetection/backup/ #建一个backup文件夹用于存放weights结果
+ 
  * __.cgf__
  *cfg folder yolov3-voc.cfg - __[yolov3-voc.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/yolov3-voc.cfg)__*
-
+       
+       [convolutional]
+       ...
+       filters = 3*(classes + 5) #修改filters数量
+       [yolo]
+       ...
+       classes=5 #修改类别数
+       [具体修改可见cfg文件]
+       
 ## 4. Download pre-taining weights
     wget https://pjreddie.com/media/files/darknet53.conv.74
 ## 5. Training
