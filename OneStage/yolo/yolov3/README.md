@@ -31,9 +31,36 @@ Python 3 + Qt5
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
-* __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Put all img in this folder]__
-* __[Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Put all labeled .xml file in this folder]__
-* __[labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) [Put all labeled .txt file in this folder]__
+
+
+* __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Put all [.jpg] img in this folder]__
+* __[Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Put all labeled [.xml] file in this folder]__ 
+            
+      [labeled .xml file2 .txt file]
+      python3 voc_label.py
+      
+* __[labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) [Transfer all labeled 2 [.txt] file in this folder and put all [.txt] file to JPEGImages folder]__
+
+. <br>
+__├── JPEGImages <br>__
+│   ├── object_00001.jpg <br>
+│   ├── object_00001.txt <br>
+│   ├── object_00002.jpg <br>
+│   └── object_00002.txt <br>
+│   ... <br>
+__├── Annotations <br>__
+│   ├── object_00001.xml <br>
+│   └── object_00002.xml <br>
+│   ... <br>
+__├── backup <br>__
+│   ├── yolov3-voc-object.backup <br>
+│   └── yolov3-voc-object_20000.weights <br>
+│   ... <br>
+__├── cfg <br>__
+│   ├── yolo3_object.data <br>
+│   └── yolov3-voc-object.cfg  <br>
+└── test <br>
+
 
 ## 2. Make .txt file
 
@@ -44,9 +71,9 @@ Python 3 + Qt5
 
 __Run voc_label.py can get below file__
 
-* obj_train.txt:写入用于训练图片的绝对路径，每行一个路径。
+* object_train.txt:写入用于训练图片的绝对路径，每行一个路径。
 
-* obj_val.txt:写入用于验证图片的绝对路径，每行一个路径。
+* object_val.txt:写入用于验证图片的绝对路径，每行一个路径。
 
 ## 3. Make .names .cgf and .data file 
 * __.names [classes name]__
@@ -82,10 +109,10 @@ __Run voc_label.py can get below file__
 ## 4. Download pre-taining weights
     wget https://pjreddie.com/media/files/darknet53.conv.74
 ## 5. Training
-    ./darknet detector train obj_detect/obj_voc.data obj_detect/yolov3-voc.cfg darknet53.conv.74
+    ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74
     
     [visualization]
-    ./darknet detector train obj_detect/obj_voc.data obj_detect/yolov3-voc.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log
+    ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log
 
 #### visualization log
     
@@ -110,7 +137,7 @@ __Run voc_label.py can get below file__
 
 ## 6. Testing
 ### ImgTesting
-    ./darknet detector test ./obj_detect/obj_voc.data ./obj_detect/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test_data/test_img.jpg
+    ./darknet detector test ./obj_detect/cfg/obj_voc.data ./obj_detect/cfg/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test/test_img.jpg
 ### VideoTesting
-    ./darknet detector demo ./obj_detect/obj_voc.data ./obj_detect/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test_data/obj_test.mp4
+    ./darknet detector demo ../obj_detect/cfg/obj_voc.data ./obj_detect/cfg/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test/obj_test.mp4
     
