@@ -5,7 +5,7 @@ from os import listdir, getcwd
 from os.path import join
 
 #我的项目中有5个类别，类别名称在这里修改
-classes = ["drinking","person","eating"]
+classes = ["car","person","bicycle"]
 def convert(size, box):
     dw = 1./size[0]
     dh = 1./size[1]
