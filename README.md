@@ -14,12 +14,12 @@
 #### COCO dataset and Pascal VOC dataset - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/COCO%20and%20Pascal%20VOC.md)
 
 *** 
-## OneStage
-#### YOLO: Real-Time Object Detection - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo.md)
+# OneStage
+## YOLO: Real-Time Object Detection - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo.md)
 * #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
 
-#### SSD: Single Shot MultiBox Detector - [[Link]]()
+## SSD: Single Shot MultiBox Detector - [[Link]]()
 
-## TwoStage
-#### Region-based methods: R-CNN
+# TwoStage
+## Region-based methods: R-CNN
 
