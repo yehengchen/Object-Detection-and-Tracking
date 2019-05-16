@@ -42,17 +42,15 @@ Python 3 + Qt5
 * __[labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) [Transfer all labeled 2 [.txt] file in this folder and put all [.txt] file to JPEGImages folder]__
 
 . <br>
-__├── JPEGImages <br>__
+__├── [JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) <br>__
 │   ├── object_00001.jpg <br>
-│   ├── object_00001.txt <br>
-│   ├── object_00002.jpg <br>
-│   └── object_00002.txt <br>
+│   └── object_00002.jpg <br>
 │   ... <br>
-__├── Annotations <br>__
+__├── [Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) <br>__
 │   ├── object_00001.xml <br>
 │   └── object_00002.xml <br>
 │   ... <br>
-__├── backup <br>__
+__├── [backup](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/backup) <br>__
 │   ├── yolov3-voc-object.backup <br>
 │   └── yolov3-voc-object_20000.weights <br>
 │   ... <br>
