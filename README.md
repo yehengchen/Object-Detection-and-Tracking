@@ -20,7 +20,7 @@
 
 
 ## SSD: Single Shot MultiBox Detector - [[Link]]()
-* ### How to train a SSD model on own images - [[Link]]()
+* #### How to train a SSD model on own images - [[Link]]()
 ***
 
 # TwoStage
