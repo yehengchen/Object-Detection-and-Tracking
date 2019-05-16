@@ -1,0 +1,6 @@
+classes= 6
+train = /home/cai/Desktop/yolo_dataset/objectdetection/object_train.txt
+valid = /home/cai/Desktop/yolo_dataset/objectdetection/object_val.txt
+names = /home/cai/Desktop/yolo_dataset/objectdetection/yolo3_object.names
+backup = /home/cai/Desktop/yolo_dataset/objectdetection/backup/
+
