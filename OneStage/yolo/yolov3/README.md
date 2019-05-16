@@ -54,7 +54,7 @@ __├── [backup](https://github.com/yehengchen/ObjectDetection/tree/master/O
 │   ├── yolov3-voc-object.backup <br>
 │   └── yolov3-voc-object_20000.weights <br>
 │   ... <br>
-__├── cfg <br>__
+__├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/cfg) <br>__
 │   ├── yolo3_object.data <br>
 │   └── yolov3-voc-object.cfg  <br>
 └── test <br>
@@ -94,7 +94,7 @@ __Run voc_label.py can get below file__
       backup = /home/cai/Desktop/yolo_dataset/objectdetection/backup/ #建一个backup文件夹用于存放weights结果
  
  * __.cgf__
- *cfg folder yolov3-voc.cfg - __[yolov3-voc.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/yolov3-voc.cfg)__*
+ *cfg folder yolov3-voc.cfg - __[example.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/cfg/example.cfg)__*
        
        [convolutional]
        ...
