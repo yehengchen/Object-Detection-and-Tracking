@@ -114,7 +114,7 @@ __Run voc_label.py can get below file__
     [visualization]
     ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log
 
-#### visualization log
+#### Log Visualization
     
     python3 extract_log.py
     python3 visualization_loss.py
