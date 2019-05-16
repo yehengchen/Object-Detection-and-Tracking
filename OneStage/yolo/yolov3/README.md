@@ -138,4 +138,5 @@ __Run voc_label.py can get below file__
     ./darknet detector test ./obj_detect/cfg/obj_voc.data ./obj_detect/cfg/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test/test_img.jpg
 ### VideoTesting
     ./darknet detector demo ../obj_detect/cfg/obj_voc.data ./obj_detect/cfg/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test/obj_test.mp4
-    
+
+![](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/test_img/predictions.jpg)
