@@ -15,14 +15,14 @@
 
 *** 
 # OneStage
-## YOLO: Real-Time Object Detection - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo.md)
+## [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
 * #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
 
 
-## SSD: Single Shot MultiBox Detector - [[Link]]()
+## [SSD](): Single Shot MultiBox Detector
 * #### How to train a SSD model on own images - [[Link]]()
 ***
 
 # TwoStage
-## Region-based methods: R-CNN
+## Region-based methods: [R-CNN]()
 
