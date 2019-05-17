@@ -4,7 +4,7 @@ import os
 from os import listdir, getcwd
 from os.path import join
 
-#我的项目中有5个类别，类别名称在这里修改
+#我的项目中有6个类别，类别名称在这里修改
 classes = ["people","fire_extinguisher","fireplug","car","bicycle","motorcycle"]
 def convert(size, box):
     dw = 1./size[0]
@@ -20,9 +20,9 @@ def convert(size, box):
     return (x,y,w,h)
 
 def convert_annotation(image_id):
-    #这里改为xml文件夹的路径
+    #这里改为.xml文件夹的路径
     in_file = open('/home/cai/Desktop/dataset/data/Annotations/%s.xml'%(image_id))
-    #这里是生成每张图片对应的txt文件的路径
+    #这里是生成每张图片对应的.txt文件的路径
     out_file = open('/home/cai/Desktop/yolo_dataset/objectdetection/labels/%s.txt'%(image_id),'w')
     tree=ET.parse(in_file)
     root = tree.getroot()
