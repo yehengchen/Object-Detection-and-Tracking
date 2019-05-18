@@ -13,8 +13,10 @@ YOLOv3 On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% 
 |YOLOv3-tiny|COCO trainval|test-dev| 33.1 | 220 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg) | [weights](https://pjreddie.com/media/files/yolov3-tiny.weights)||
 
 ***
-# YOLOv1
+# YOLOv1 - Redmon et al., 2016
 *You Only Look Once:Unified, Real-Time Object Detection - [[Paper]](https://arxiv.org/pdf/1506.02640.pdf)*
+
+The YOLO model is the very first attempt at building a fast real-time object detector. Because YOLO does not undergo the region proposal step and only predicts over a limited number of bounding boxes, it is able to do inference super fast.
 ![The YOLO Detection System](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1.png)
 
 Processing imageswith YOLO is simple and straightforward. 
@@ -22,30 +24,41 @@ Processing imageswith YOLO is simple and straightforward.
 * (2) runs a single convolutional network on the image.
 * (3) thresholds the resulting detections bythe model’s confidence.
 
-![The Model](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1_1.png)
+## Workflow
+
+1. Pre-train a CNN network on image classification task.
+
+
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolo.png" width="60%" height="60%">
 
 It divides the image into an S × S grid and for each grid cell predicts B bounding boxes, confidence for those boxes,
 and C class probabilities.These predictions are encoded as an __S × S × (B ∗ 5 + C)__ tensor.
 For evaluating YOLO on P ASCAL VOC, They use S = 7, B = 2. P ASCAL VOC has 20 labelled classes so C = 20.
 
+__a: the location of B bounding boxes__
+__b: Confidence as Pr(Object) ∗ IOU (truth | pred)__
 
-__b :Confidence as Pr(Object) ∗ IOU (truth | pred)__
+*(b) a confidence score*
     
     If no object exists in that cell, the confidence scores should be zero. (Pr(Object) = 0)
     intersection over union (IOU) between the predicted box and the ground truth.
     
-__c :Class probabilities, Pr(Class i |Object)__
+__c: Class probabilities, Pr(Class i |Object)__
+
+*(c) a probability of object class conditioned on the existence of an object in the bounding box*
 
 __Pr(Class i |Object) ∗ Pr(Object) ∗ IOU(truth | pred) = Pr(Class i ) ∗ IOU(truth | pred)__
 
-## Network Design
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1network.png" width="90%" height="90%">
+## Network Architecture
+
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1network.png" width="60%" height="60%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolo-network-architecture.png" width="60%" height="60%">
 
 *Network has 24 convolutional layers followed by 2 fully connected layers. Alternating 1×1 convolutional layers reduce the features space from preceding layers.*
 
 __The final prediction is a 7 × 7 × 30 tensor.__
 
-
+## Loss Function
 
 ***
 # YOLOv2
