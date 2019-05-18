@@ -143,7 +143,9 @@ Interestingly, focal loss does not help YOLOv3, potentially it might be due to t
 
 # Reference
 [1] Joseph Redmon, et al. “You only look once: Unified, real-time object detection.” CVPR 2016.
+
 [2] Joseph Redmon and Ali Farhadi. “YOLO9000: Better, Faster, Stronger.” CVPR 2017.
+
 [3] Joseph Redmon, Ali Farhadi. “YOLOv3: An incremental improvement.”.
-[4] Wei Liu et al. “SSD: Single Shot MultiBox Detector.” ECCV 2016.
-[5] Lilian Weng. Object Detection Part 4: Fast Detection Models Dec 27, 2018
+
+[4] Lilian Weng. Object Detection Part 4: Fast Detection Models Dec 27, 2018
