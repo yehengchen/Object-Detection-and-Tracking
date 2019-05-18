@@ -10,7 +10,7 @@
 * #### How to train a SSD model on own images - [[Link]]()
 
 # TwoStage
-### [R-CNN]():Region-based methods
+### [R-CNN](): Region-based methods
 * Fast R-CNN
 * Faster R-CNN
 * Mask R-CNN
