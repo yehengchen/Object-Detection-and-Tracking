@@ -21,6 +21,7 @@ The width, height and the center location of an anchor box are all normalized to
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/ssd/ssd_img/proof.png" width="50%" height="50%">
 
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/ssd/ssd_img/SSD-box-scales.png" width="50%" height="50%">
+
 *An example of how the anchor box size is scaled up with the layer index ℓ for L=6,smin=0.2,smax=0.9. Only the boxes of aspect ratio r=1 are illustrated.*
 
 At every location, the model outputs 4 offsets and c class probabilities by applying a 3×3×p conv filter (where p is the number of channels in the feature map) for every one of k anchor boxes. Therefore, given a feature map of size m×n, we need kmn(c+4) prediction filters.
