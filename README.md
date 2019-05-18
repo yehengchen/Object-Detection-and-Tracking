@@ -1,3 +1,7 @@
+# ObjectDetection
+
+![](https://github.com/yehengchen/ObjectDetection/blob/master/img/objectdetection.gif)
+
 # OneStage
 ### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
 * #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
@@ -13,7 +17,7 @@
 
 ***
 # Paper list from 2014 to now(2019)
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/deep_learning_object_detection_history.PNG" width="45%" height="45%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/deep_learning_object_detection_history.PNG" width="60%" height="60%">
 
 #### PapersWithCode: Browse > Computer Vision > Object Detection - [[Link]](https://paperswithcode.com/task/object-detection)
 
