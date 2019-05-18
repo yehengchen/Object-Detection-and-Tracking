@@ -1,8 +1,16 @@
-# ObjectDetectionNote
+# OneStage
+### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
+* #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
 
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/Object-Detection-Deep-Learning.jpg" width="90%" height="90%">
 
-## Paper list from 2014 to now(2019)
+### [SSD](): Single Shot MultiBox Detector
+* #### How to train a SSD model on own images - [[Link]]()
+
+# TwoStage
+### Region-based methods: [R-CNN]()
+
+***
+# Paper list from 2014 to now(2019)
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/deep_learning_object_detection_history.PNG" width="45%" height="45%">
 
 #### PapersWithCode: Browse > Computer Vision > Object Detection - [[Link]](https://paperswithcode.com/task/object-detection)
@@ -14,15 +22,5 @@
 #### COCO dataset and Pascal VOC dataset - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/COCO%20and%20Pascal%20VOC.md)
 
 *** 
-# OneStage
-## [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
-* #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
 
-
-## [SSD](): Single Shot MultiBox Detector
-* #### How to train a SSD model on own images - [[Link]]()
-***
-
-# TwoStage
-## Region-based methods: [R-CNN]()
 
