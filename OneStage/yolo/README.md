@@ -26,8 +26,9 @@ Processing imageswith YOLO is simple and straightforward.
 
 ## Workflow
 
-1. Pre-train a CNN network on image classification task.
-
+Pre-train a CNN network on image classification task.
+* The coordinates of bounding box are defined by a tuple of 4 values, (center x-coord, center y-coord, width, height) — (x,y,w,h), where x and y are set to be offset of a cell location. Moreover, x, y, w and h are normalized by the image width and height, and thus all between (0, 1].
+* A confidence score indicates the likelihood that the cell contains an object: Pr(containing an object) x IoU(pred, truth); where Pr = probability and IoU = interaction under union
 
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolo.png" width="60%" height="60%">
 
@@ -36,6 +37,7 @@ and C class probabilities.These predictions are encoded as an __S × S × (B ∗
 For evaluating YOLO on P ASCAL VOC, They use S = 7, B = 2. P ASCAL VOC has 20 labelled classes so C = 20.
 
 __a: the location of B bounding boxes__
+
 __b: Confidence as Pr(Object) ∗ IOU (truth | pred)__
 
 *(b) a confidence score*
@@ -43,7 +45,7 @@ __b: Confidence as Pr(Object) ∗ IOU (truth | pred)__
     If no object exists in that cell, the confidence scores should be zero. (Pr(Object) = 0)
     intersection over union (IOU) between the predicted box and the ground truth.
     
-__c: Class probabilities, Pr(Class i |Object)__
+__c: Class probabilities, Pr(Class i | Object)__
 
 *(c) a probability of object class conditioned on the existence of an object in the bounding box*
 
@@ -59,6 +61,22 @@ __Pr(Class i |Object) ∗ Pr(Object) ∗ IOU(truth | pred) = Pr(Class i ) ∗ IO
 __The final prediction is a 7 × 7 × 30 tensor.__
 
 ## Loss Function
+The loss consists of two parts, the localization loss for bounding box offset prediction and the classification loss for conditional class probabilities. Both parts are computed as the sum of squared errors. Two scale parameters are used to control how much we want to increase the loss from bounding box coordinate predictions (λcoord) and how much we want to decrease the loss of confidence score predictions for boxes without objects (λnoobj). Down-weighting the loss contributed by background boxes is important as most of the bounding boxes involve no instance. In the paper, the model sets λcoord=5 and λnoobj=0.5.
+
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1_lossfunc.png" width="80%" height="80%">
+
+where,
+
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/Screenshot%20from%202019-05-18%2016-55-25.png" width="60%" height="60%">
+
+
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolo-responsible-predictor.png" width="80%" height="80%">
+
+*At one location, in cell i, the model proposes B bounding box candidates and the one that has highest overlap with the ground truth is the “responsible” predictor.*
+
+The loss function only penalizes classification error if an object is present in that grid cell, 𝟙obji=1. It also only penalizes bounding box coordinate error if that predictor is “responsible” for the ground truth box, 𝟙objij=1.
+
+As a one-stage object detector, YOLO is super fast, but it is not good at recognizing irregularly shaped objects or a group of small objects due to a limited number of bounding box candidates.
 
 ***
 # YOLOv2
