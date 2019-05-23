@@ -30,6 +30,7 @@ COCO has several features:
 * Download the [2017 Test images](http://images.cocodataset.org/zips/test2017.zip) [41K/6GB]
 * COCO API/[PythonAPI](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI)
 
+***
 
 # VOC2007
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/voc.png)
