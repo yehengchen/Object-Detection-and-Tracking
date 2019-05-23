@@ -54,20 +54,22 @@ The twenty object classes that have been selected are:
     Evaluation measure for the classification challenge changed to Average Precision. Previously it had been ROC-AUC.
 
 ### VOC2007 Data
-The annotated test data for the VOC challenge 2007 is now available: 
+The annotated test data for the VOC challenge 2007 is now available:
+
 * Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar) (450MB tar file)
 * Download the [development kit code and documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar) (250KB tar file)
 * Download the [PDF documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/devkit_doc_07-Jun-2007.pdf) (120KB PDF) 
-* View the [guidelines](View the guidelines used for annotating the database) used for annotating the database
+* View the [guidelines](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/guidelines.html) used for annotating the database
 * Download the [annotated test data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar) (430MB tar file)
 * Download the [annotation only](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtestnoimgs_06-Nov-2007.tar) (12MB tar file, no images)
 
 ### VOC2012 Data
+The development kit is now available:
 
 * Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) (2GB tar file)
 * Download the [development kit code and documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCdevkit_18-May-2011.tar) (500KB tar file)
 * Download the [PDF documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/devkit_doc.pdf) (500KB PDF)
-* Browse the HTML documentation
+* Browse the [HTML documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/htmldoc/index.html)
 * View the [guidelines](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/guidelines.html) used for annotating the database (VOC2011)
 * View the [action guidelines](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/action_guidelines/index.html) used for annotating the action task images
 
