@@ -62,6 +62,15 @@ The annotated test data for the VOC challenge 2007 is now available:
 * Download the [annotated test data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar) (430MB tar file)
 * Download the [annotation only](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtestnoimgs_06-Nov-2007.tar) (12MB tar file, no images)
 
+### VOC2012 Data
+
+* Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) (2GB tar file)
+* Download the [development kit code and documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCdevkit_18-May-2011.tar) (500KB tar file)
+* Download the [PDF documentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/devkit_doc.pdf) (500KB PDF)
+* Browse the HTML documentation
+* View the [guidelines](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/guidelines.html) used for annotating the database (VOC2011)
+* View the [action guidelines](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/action_guidelines/index.html) used for annotating the action task images
+
 
 ## References
 ECCV 2018 Joint COCO and Mapillary Recognition - [[Link]](http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html)
