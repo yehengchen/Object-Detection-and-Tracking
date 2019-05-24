@@ -104,7 +104,7 @@ __Run voc_label.py can get below file__
        classes=5 #修改类别数
        [具体修改可见cfg文件]
        
-## 4. Download pre-taining weights
+## 4. Download pre-taining weights -下载预训练 weights
     wget https://pjreddie.com/media/files/darknet53.conv.74
 ## 5. Training
     ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74
@@ -112,8 +112,9 @@ __Run voc_label.py can get below file__
     [visualization]
     ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log
 
-#### Log Visualization
+#### Log Visualization - 训练可视化
     
+    # 在 extract_log.py 中修改 train_yolov3.log 路径
     python3 extract_log.py
     python3 visualization_loss.py
     python3 visualization_iou.py
