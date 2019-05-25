@@ -76,7 +76,7 @@ __Run voc_label.py can get below file__
 * __.names [classes name]__
 *data folder voc.names*
 
-      people 
+      person
       fire_extinguisher
       fireplug
       car
