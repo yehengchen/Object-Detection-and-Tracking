@@ -18,7 +18,7 @@
     
 ***
 # Train a model on own images
-## 1. Image labeling 
+## 1. Image labeling - 标记数据集
 #### LabelImg is a graphical image annotation tool - [labelImg](https://github.com/tzutalin/labelImg)
 __Ubuntu Linux__
 Python 3 + Qt5   
@@ -30,7 +30,6 @@ Python 3 + Qt5
     cd labelImg
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-
 
 
 * __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Put all [.jpg] img in this folder]__
