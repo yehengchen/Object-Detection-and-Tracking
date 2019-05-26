@@ -50,6 +50,10 @@ __├── [Annotations](https://github.com/yehengchen/ObjectDetection/tree/mas
 │   ├── object_00001.xml <br>
 │   └── object_00002.xml <br>
 │   ... <br>
+__├── [labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) <br>__
+│   ├── object_00001.txt <br>
+│   └── object_00002.txt <br>
+│   ... <br>
 __├── [backup](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/backup) <br>__
 │   ├── yolov3-voc-object.backup <br>
 │   └── yolov3-voc-object_20000.weights <br>
@@ -58,6 +62,7 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
 │   ├── yolo3_object.data <br>
 │   └── yolov3-voc-object.cfg  <br>
 └── test <br>
+
 
 
 ## 2. Make .txt file
@@ -134,10 +139,11 @@ __Run voc_label.py can get below file__
     1： 指示当前训练的迭代次数
     1452.927612： 是总体的Loss(损失）
 
+***
+
 ##  Train a model on VOC2007 or VOC2012
 
 ### VOC2007 Data
-The annotated test data for the VOC challenge 2007 is now available:
 
 * Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar) (450MB tar file)
 
