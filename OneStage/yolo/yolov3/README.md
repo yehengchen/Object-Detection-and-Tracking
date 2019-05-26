@@ -133,7 +133,18 @@ __Run voc_label.py can get below file__
     1： 指示当前训练的迭代次数
     1452.927612： 是总体的Loss(损失）
 
-## 6. Testing
+##  Train a model on VOC2007 or VOC2012
+
+### VOC2007 Data
+The annotated test data for the VOC challenge 2007 is now available:
+
+* Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar) (450MB tar file)
+
+### VOC2012 Data
+
+* Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) (2GB tar file)
+
+
 ### ImgTesting
     ./darknet detector test ./obj_detect/cfg/obj_voc.data ./obj_detect/cfg/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test/test_img.jpg
 ### VideoTesting
