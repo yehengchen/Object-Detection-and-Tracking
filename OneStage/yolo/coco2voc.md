@@ -35,4 +35,4 @@
 *修改coco数据集中自己所需要的类别名称*
     
     python3 coco2voc.py
-     #result/Annotations 目录将放.xml文件， result/images 目录将放 .jpg文件
+    #result/Annotations 目录将放.xml文件， result/images 目录将放 .jpg文件
