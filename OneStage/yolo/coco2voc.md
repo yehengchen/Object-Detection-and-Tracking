@@ -13,8 +13,8 @@
  
     cd ~/Desktop   
     mkdir coco
+    cd coco
     unzip train2017.zip -d ~/Desktop/coco && unzip annotations_trainval2017.zip -d ~/Desktop/coco
-    
     mkdir -p result/Annotations result/images
    
 
@@ -27,11 +27,12 @@
     cd coco/PythonAPI
     make
 
+### 3. Change the classes_names and path
 *将 coco2voc.py 放在 PythonAPI/ 目录下运行，并且修改 coco2voc.py 相关路径*
 
     classes_names = ['person', 'fire_extinguisher', 'fireplug', 'car', 'bicycle','motorcycle']
 
-*修改所需要提取的类别名称*
+*修改coco数据集中自己所需要的类别名称*
     
     python3 coco2voc.py
      #result/Annotations 目录将放.xml文件， result/images 目录将放 .jpg文件
