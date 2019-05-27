@@ -28,7 +28,7 @@
     make
 
 ### 3. Change the classes_names and path
-*将 coco2voc.py 放在 PythonAPI/ 目录下运行，并且修改 coco2voc.py 相关路径*
+*将 [coco2voc.py](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/coco2voc.py) 放在 PythonAPI/ 目录下运行，并且修改 coco2voc.py 相关路径*
 
     classes_names = ['person', 'fire_extinguisher', 'fireplug', 'car', 'bicycle','motorcycle']
 
