@@ -17,6 +17,7 @@
 * Faster R-CNN
 * Mask R-CNN
 
+*** 
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/8.1.2.png" width="90%" height="90%">
 
 ***
