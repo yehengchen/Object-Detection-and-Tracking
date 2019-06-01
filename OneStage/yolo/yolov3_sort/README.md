@@ -18,10 +18,9 @@ The code on this prototype uses the code structure developed by Adrian Rosebrock
 
 1. Download the code to your computer.
 2. [Download yolov3.weights](https://www.dropbox.com/s/99mm7olr1ohtjbq/yolov3.weights?dl=0) and place it in `/yolo-coco`.
-3. Make sure you have Python 3.7.0 and [OpenCV 3.4.2](https://www.pyimagesearch.com/opencv-tutorials-resources-guides/) installed.
-4. Run:
+3. Run:
 ```
-$ python main.py --input input/highway.mp4 --output output/highway.avi --yolo yolo-coco
+$ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-obj
 ```
 
 ## Citation
