@@ -1,8 +1,13 @@
-# YOLOv3 Sort Person Counter
+# YOLOv3 + Sort Person Counter
 
-The purpose of this project is to detect and track vehicles on a video stream and count those going through a defined line. 
+*This project is to detect and track person on a video stream and count those going through a defined line.*
 
-![highway.gif](highway.gif)
+![sort.gif](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif)
+
+## Requirement
+
+* OpenCV
+* Python 3.5
 
 It uses:
 
@@ -12,26 +17,29 @@ It uses:
 
 Once the objects are detected and tracked over different frames a simple mathematical calculation is applied to count the intersections between the vehicles previous and current frame positions with a defined line.
 
-The code on this prototype uses the code structure developed by Adrian Rosebrock for his article [YOLO object detection with OpenCV](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv).
 
 ## Quick Start
 
 1. Download the code to your computer.
-2. [Download yolov3.weights](https://www.dropbox.com/s/99mm7olr1ohtjbq/yolov3.weights?dl=0) and place it in `/yolo-coco`.
-3. Run:
+     
+2. [Download yolov3_person.weights](https://yun.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FGithub%2Fyolov3) and place it in `yolov3_sort/yolo-obj/`
+
+3. [yolov3_sort/main.py] Change the Path to __labelsPath / weightsPath / configPath__.
+
+4. Run:
 ```
 $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-obj
 ```
 
-## Citation
+## Reference
 
-### YOLO :
+### YOLOv3 :
 
-    @article{redmon2016yolo9000,
-      title={YOLO9000: Better, Faster, Stronger},
-      author={Redmon, Joseph and Farhadi, Ali},
-      journal={arXiv preprint arXiv:1612.08242},
-      year={2016}
+    @article{yolov3,
+    title={YOLOv3: An Incremental Improvement},
+    author={Redmon, Joseph and Farhadi, Ali},
+    journal = {arXiv},
+    year={2018}
     }
 
 ### SORT :
@@ -45,3 +53,5 @@ $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-ob
       keywords={Benchmark testing;Complexity theory;Detectors;Kalman filters;Target tracking;Visualization;Computer Vision;Data Association;Detection;Multiple Object Tracking},
       doi={10.1109/ICIP.2016.7533003}
     }
+#### Github@[guillelopez]
+
