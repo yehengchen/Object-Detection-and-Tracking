@@ -119,6 +119,8 @@ __Run voc_label.py can get below file__
 ## 4. Download pre-taining weights -下载预训练 weights
     wget https://pjreddie.com/media/files/darknet53.conv.74
 ## 5. Training
+    ./darknet detector train [path to .data file] [path to .cfg file] [path to pre-taining weights-darknet53.conv.74]
+    
     ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74
     
     [visualization]
