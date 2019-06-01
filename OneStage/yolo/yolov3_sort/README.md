@@ -1,4 +1,4 @@
-# Person Counter
+# YOLOv3 Sort Person Counter
 
 The purpose of this project is to detect and track vehicles on a video stream and count those going through a defined line. 
 
