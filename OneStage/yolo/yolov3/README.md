@@ -2,8 +2,9 @@
 
 ## Requirement
 * Python 3.5
-* OpenCV
-* PyTorch 0.4
+* OpenCV if you want a wider variety of supported image types.
+* CUDA if you want GPU computation.
+
 
 ### Download the source code
     git clone https://github.com/pjreddie/darknet
