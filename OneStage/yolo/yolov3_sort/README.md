@@ -22,7 +22,7 @@ Once the objects are detected and tracked over different frames a simple mathema
 
 1. Download the code to your computer.
      
-2. [Download yolov3_person.weights](https://yun.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FGithub%2Fyolov3) and place it in `yolov3_sort/yolo-obj/`
+2. Download [[yolov3_person.weights]](https://yun.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FGithub%2Fyolov3) and place it in `yolov3_sort/yolo-obj/`
 
 3. [yolov3_sort/main.py] Change the Path to __labelsPath / weightsPath / configPath__.
 
