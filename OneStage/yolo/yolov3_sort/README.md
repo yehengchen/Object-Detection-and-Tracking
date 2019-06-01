@@ -6,8 +6,9 @@
 
 ## Requirement
 
-* OpenCV
 * Python 3.5
+* OpenCV
+* Numpy
 
 It uses:
 
