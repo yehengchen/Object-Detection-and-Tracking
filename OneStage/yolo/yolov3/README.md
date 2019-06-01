@@ -1,4 +1,10 @@
-# YOLOv3
+# Train YOLOv3 model
+
+## Requirement
+* Python 3.5
+* OpenCV
+* PyTorch 0.4
+
 ### Download the source code
     git clone https://github.com/pjreddie/darknet
     cd darknet
