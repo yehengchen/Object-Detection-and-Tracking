@@ -1,4 +1,4 @@
-# YOLOv3 + Sort Person Counter
+# YOLOv3 + SORT - Person Counter
 
 *This project is to detect and track person on a video stream and count those going through a defined line.*
 
