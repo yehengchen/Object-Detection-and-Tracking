@@ -48,7 +48,7 @@ COLORS = np.random.randint(0, 255, size=(200, 3),
 	dtype="uint8")
 
 # derive the paths to the YOLO weights and model configuration
-weightsPath = os.path.sep.join([args["yolo"], "yolov3_20000_0601.weights"])
+weightsPath = os.path.sep.join([args["yolo"], "yolov3_person.weights"])
 configPath = os.path.sep.join([args["yolo"], "yolov3_1.cfg"])
 
 # load our YOLO object detector trained on COCO dataset (80 classes)
