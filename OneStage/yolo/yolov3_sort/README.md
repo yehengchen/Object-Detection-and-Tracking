@@ -1,4 +1,4 @@
-# Python Traffic Counter
+# Person Counter
 
 The purpose of this project is to detect and track vehicles on a video stream and count those going through a defined line. 
 
@@ -6,7 +6,7 @@ The purpose of this project is to detect and track vehicles on a video stream an
 
 It uses:
 
-* [YOLO](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv) to detect objects on each of the video frames.
+* [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames.
 
 * [SORT](https://github.com/abewley/sort) to track those objects over different frames.
 
