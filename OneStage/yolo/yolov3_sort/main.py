@@ -14,7 +14,7 @@ for f in files:
 from sort import *
 tracker = Sort()
 memory = {}
-line = [(0, 500), (1920, 500)]
+line = [(0, 500), (1920, 500)] #在这里可以修改检测线的两点坐标
 counter = 0
 
 # construct the argument parse and parse the arguments
