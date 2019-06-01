@@ -26,7 +26,7 @@ Once the objects are detected and tracked over different frames a simple mathema
 
 3. [yolov3_sort/main.py] Change the Path to __labelsPath / weightsPath / configPath__.
 
-4. Run:
+4. Run the yolov3 counter:
 ```
 $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-obj
 ```
