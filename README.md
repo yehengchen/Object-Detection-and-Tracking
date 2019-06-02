@@ -6,6 +6,8 @@
 # OneStage
 ### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
 
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="40%" height="40%">
+
 * #### YOLOv3 + SORT - Person Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 * #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
 * #### How to get it working on the COCO dataset __coco2voc__ - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/coco2voc.md)
@@ -19,9 +21,6 @@
 * Fast R-CNN
 * Faster R-CNN
 * Mask R-CNN
-
-*** 
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/8.1.2.png" width="90%" height="90%">
 
 ***
 # Paper list from 2014 to now(2019)
