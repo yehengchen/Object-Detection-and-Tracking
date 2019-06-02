@@ -159,7 +159,9 @@ __Run voc_label.py can get below file__
 ### VOC2012 Data
 
 * Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) (2GB tar file)
+***
 
+## TEST
 
 ### ImgTesting
     ./darknet detector test ./obj_detect/cfg/obj_voc.data ./obj_detect/cfg/yolov3-voc.cfg ./obj_detect/backup/yolov3-voc_30000.weights ./obj_detect/test/test_img.jpg
