@@ -12,7 +12,7 @@
 
 It uses:
 
-* [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames.
+* [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames. - 用自己的数据训练Yolov3模型
 
 * [SORT](https://github.com/abewley/sort) to track those objects over different frames.
 
@@ -25,7 +25,7 @@ Once the objects are detected and tracked over different frames a simple mathema
      
 2. Download [[yolov3_person.weights]](https://yun.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FGithub%2Fyolov3) and place it in `yolov3_sort/yolo-obj/`
 
-3. [yolov3_sort/main.py] Change the Path to __labelsPath / weightsPath / configPath__.
+3. [yolov3_sort/main.py] Change the Path to __labelsPath / weightsPath / configPath__. - 更换main.py中的路径
 
 4. Run the yolov3 counter:
 ```
