@@ -17,6 +17,7 @@
 ### [SSD](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/ssd): Single Shot MultiBox Detector
 * #### How to train a SSD model on own images - [[Link]]()
 
+***
 # TwoStage
 ### [R-CNN](): Region-based methods
 * Fast R-CNN
