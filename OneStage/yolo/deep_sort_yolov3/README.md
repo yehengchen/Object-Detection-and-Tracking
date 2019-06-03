@@ -2,7 +2,7 @@
 
 *This project is to detect and track person on a video stream and count those going through a defined line.*
 
-![deep_sort.gif](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif)
+![deep_sort.gif](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/output.gif)
 
 ## Requirement
 
