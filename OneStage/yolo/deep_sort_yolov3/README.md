@@ -11,6 +11,7 @@
 * NumPy
 * sklean
 * Pillow
+* tensorflow-gpu 1.10.0 
 ***
 
 It uses:
