@@ -36,7 +36,7 @@ $ python convert.py yolov3_1.cfg yolov3_person.weights model_data/yolo.h5
 4. Run the YOLO_DEEP_SORT:
 
 ```
-$ python3 python demo.py
+$ python demo.py
 ```
 
 ## Citing
