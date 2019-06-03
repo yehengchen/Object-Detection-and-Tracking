@@ -6,7 +6,6 @@
 
 ## Requirement
 
-* Python 3.5
 * OpenCV
 * NumPy
 * sklean
