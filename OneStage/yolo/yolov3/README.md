@@ -24,7 +24,7 @@
     ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
     
 ***
-# Train a model on own images
+# Train a model on own images - 训练自己的数据
 ## 1. Image labeling - 标记数据集
 #### LabelImg is a graphical image annotation tool - [labelImg](https://github.com/tzutalin/labelImg)
 __Ubuntu Linux__
@@ -72,7 +72,7 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
 
 
 
-## 2. Make .txt file
+## 2. Make .txt file - 制作 yolo 需要的文档
 
 * train.txt:写入用于训练图片的名字，每行一个名字（不带后缀.jpg）。
 
