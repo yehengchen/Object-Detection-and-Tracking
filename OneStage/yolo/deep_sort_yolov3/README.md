@@ -11,6 +11,7 @@
 * NumPy
 * sklean
 * Pillow
+***
 
 It uses:
 
@@ -18,7 +19,7 @@ It uses:
 
 * [Deep_SORT](https://github.com/nwojke/deep_sort) to track those objects over different frames.
 
-This repository contains code for Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT). We extend the original SORT algorithm to integrate appearance information based on a deep appearance descriptor. See the [arXiv preprint](https://arxiv.org/abs/1703.07402) for more information.
+*This repository contains code for Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT). We extend the original SORT algorithm to integrate appearance information based on a deep appearance descriptor. See the [arXiv preprint](https://arxiv.org/abs/1703.07402) for more information.*
 
 
 ## Quick Start
