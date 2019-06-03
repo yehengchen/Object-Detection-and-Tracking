@@ -20,7 +20,7 @@ from yolo3.utils import letterbox_image
 
 class YOLO(object):
     def __init__(self):
-        self.model_path = './model_data/yolo_c.h5'
+        self.model_path = './model_data/yolo.h5'
         self.anchors_path = 'model_data/yolo_anchors.txt'
         self.classes_path = 'model_data/obj.txt'
         self.score = 0.6
