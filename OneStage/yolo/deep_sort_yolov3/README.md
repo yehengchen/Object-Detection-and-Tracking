@@ -51,7 +51,7 @@ $ python demo.py
     year={2018}
     }
 
-### SORT :
+### Deep_SORT :
 
     @inproceedings{Wojke2017simple,
     title={Simple Online and Realtime Tracking with a Deep Association Metric},
