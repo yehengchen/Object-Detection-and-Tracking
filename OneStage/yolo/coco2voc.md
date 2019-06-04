@@ -1,5 +1,5 @@
 # coco2voc
-*提取coco数据集中需要的类别进行转换*
+*提取 coco 数据集中需要的类别和标记进行转换成 yolo 可以使用的数据集*
 ### 1. Download coco2017 data
 *首先下载 [2017 Train images] 数据集和  [2017 annotations] 并且放入 coco 目录下*
 
