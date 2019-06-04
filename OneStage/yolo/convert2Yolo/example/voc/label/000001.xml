@@ -1,0 +1,26 @@
+<annotation>
+    <folder>voc2012</folder>
+    <filename>000001</filename>
+    <path>/media/martin/SsaRu/Aidentify/deeplearning/Yolo_darknet/darknet/voc/person_img/voc2007/000001.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>353</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>M_50s</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>129</xmin>
+            <ymin>31</ymin>
+            <xmax>298</xmax>
+            <ymax>227</ymax>
+        </bndbox>
+    </object>
+</annotation>
