@@ -1,4 +1,4 @@
-# Tensorflow detection model zoo
+# Tensorflow detection model zoo - [Link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
 We provide a collection of detection models pre-trained on the [COCO
 dataset](http://mscoco.org), the [Kitti dataset](http://www.cvlibs.net/datasets/kitti/),
