@@ -3,7 +3,8 @@
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/objectdetection.gif)
 
 *Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos.*
-[tf-model zoo](https://github.com/yehengchen/ObjectDetection/blob/master/Tensorflow%20detection%20model%20zoo.md)
+
+[[tf-model zoo]](https://github.com/yehengchen/ObjectDetection/blob/master/Tensorflow%20detection%20model%20zoo.md)
 
 # OneStage
 ### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
