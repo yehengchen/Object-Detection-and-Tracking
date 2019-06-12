@@ -38,7 +38,7 @@ $ python convert.py yolov3_1.cfg yolov3_person.weights model_data/yolo.h5
 $ python demo.py
 ```
 
-## Training on Market1501
+## Train on Market1501 & MARS
 [cosine_metric_learning](https://github.com/nwojke/cosine_metric_learning) for training a metric feature representation to be used with the deep_sort tracker.
 
 ## Citing
