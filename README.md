@@ -9,11 +9,11 @@ __[[tf-model zoo]](https://github.com/yehengchen/ObjectDetection/blob/master/Ten
 # OneStage
 ### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection
 
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/output.gif" width="40%" height="40%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="50%" height="50%">
 
 * #### YOLOv3 + Deep_SORT - Object Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/deep_sort_yolov3)
 
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="40%" height="40%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="50%" height="50%">
 
 * #### YOLOv3 + SORT - Person Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 * #### How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)
