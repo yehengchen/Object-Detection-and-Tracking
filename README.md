@@ -1,4 +1,4 @@
-# ObjectDetection
+# Object Detection and Tracking
 
 ![](https://github.com/yehengchen/ObjectDetection/blob/master/img/objectdetection.gif)
 
