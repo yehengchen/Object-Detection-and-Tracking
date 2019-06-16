@@ -36,6 +36,9 @@ $ python convert.py yolov3_1.cfg yolov3_person.weights model_data/yolo.h5
 
 ```
 $ python demo.py
+
+#OpenCV draw motion path
+$ python demo_path.py
 ```
 
 ## Train on Market1501 & MARS
