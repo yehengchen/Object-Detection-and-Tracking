@@ -36,8 +36,10 @@ $ python convert.py yolov3_1.cfg yolov3_person.weights model_data/yolo.h5
 
 ```
 $ python demo.py
+```
+5. Run YOLO_DEEP_SORT + OpenCV draw motion path
 
-#OpenCV draw motion path
+```
 $ python demo_path.py
 ```
 
