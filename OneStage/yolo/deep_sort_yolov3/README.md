@@ -42,7 +42,7 @@ $ python demo.py
 $ python demo_path.py
 ```
 
-6. Can change [deep_sort_yolov3/yolo.py] Line 100 to your tracking target
+6. Can change [deep_sort_yolov3/yolo.py] __Line 100__ to your tracking target
 
 *DeepSORT pre-trained weights only for person, other targets is not good, but it's ALSO NOT bad*
 ```
