@@ -42,6 +42,14 @@ $ python demo.py
 $ python demo_path.py
 ```
 
+6. Can change [deep_sort_yolov3/yolo.py] Line 100 to your tracking target
+
+*DeepSORT pre-trained weights only for person, other targets is not good, but it's ALSO NOT bad*
+```
+if predicted_class != 'person':
+   continue
+```
+
 ## Train on Market1501 & MARS
 [cosine_metric_learning](https://github.com/nwojke/cosine_metric_learning) for training a metric feature representation to be used with the deep_sort tracker.
 
