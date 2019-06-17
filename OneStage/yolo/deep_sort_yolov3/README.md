@@ -2,7 +2,7 @@
 
 ![deep_sort.gif](https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif)
 
-__Demo - [[BiliBili]](https://www.bilibili.com/video/av54470007/?p=2)__
+__Demo - [[BiliBili_V1]](https://www.bilibili.com/video/av54470007/?p=2) [[BiliBili_V2]](https://www.bilibili.com/video/av55778717)__
 ## Requirement
 
 * OpenCV
