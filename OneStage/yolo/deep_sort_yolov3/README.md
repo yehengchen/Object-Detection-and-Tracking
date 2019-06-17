@@ -20,12 +20,11 @@ It uses:
 
 *This repository contains code for Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT). We extend the original SORT algorithm to integrate appearance information based on a deep appearance descriptor. See the [arXiv preprint](https://arxiv.org/abs/1703.07402) for more information.*
 
-
 ## Quick Start
 
 1. Download the code to your computer.
      
-2. Download [[yolov3_person.weights]](https://yun.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FGithub%2Fyolov3) and place it in `yolov3_sort/yolo-obj/`
+2. Download [[yolov3_person.weights]](https://yun.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2FGithub%2Fyolov3)[[官方权重]](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/OneStage/yolo) and place it in `yolov3_sort/yolo-obj/`
 
 3. Convert the Darknet YOLO model to a Keras model:
 ```
