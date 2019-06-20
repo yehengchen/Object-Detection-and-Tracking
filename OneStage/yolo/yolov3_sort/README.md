@@ -32,7 +32,7 @@ Once the objects are detected and tracked over different frames a simple mathema
 $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-obj
 ```
 
-## Citing
+## Citation
 
 ### YOLOv3 :
 
@@ -56,5 +56,5 @@ $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-ob
     }
     
 # Reference
-#### Github@[guillelopez]
+#### Github@[guillelopez]（https://github.com/guillelopez/python-traffic-counter-with-yolo-and-sort）
 
