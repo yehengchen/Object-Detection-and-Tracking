@@ -126,6 +126,7 @@ Given the anchor box of size (pw,ph) at the grid cell with its top left corner a
 
 # YOLOv3
 *YOLOv3: An Incremental Improvement - [[Paper]](https://arxiv.org/abs/1804.02767)*
+
 YOLOv3 is created by applying a bunch of design tricks on YOLOv2. The changes are inspired by recent advances in the object detection world.
 
 Here are a list of changes:
