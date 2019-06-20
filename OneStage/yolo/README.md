@@ -125,7 +125,7 @@ Given the anchor box of size (pw,ph) at the grid cell with its top left corner a
 * 8. Light-weighted base model: To make prediction even faster, YOLOv2 adopts a light-weighted base model, DarkNet-19, which has 19 conv layers and 5 max-pooling layers. The key point is to insert avg poolings and 1x1 conv filters between 3x3 conv layers.
 
 # YOLOv3
-
+*YOLOv3: An Incremental Improvement - [[Paper]](https://arxiv.org/abs/1804.02767)*
 YOLOv3 is created by applying a bunch of design tricks on YOLOv2. The changes are inspired by recent advances in the object detection world.
 
 Here are a list of changes:
