@@ -32,7 +32,7 @@ Once the objects are detected and tracked over different frames a simple mathema
 $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-obj
 ```
 
-## Reference
+## Citing
 
 ### YOLOv3 :
 
@@ -54,5 +54,7 @@ $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-ob
       keywords={Benchmark testing;Complexity theory;Detectors;Kalman filters;Target tracking;Visualization;Computer Vision;Data Association;Detection;Multiple Object Tracking},
       doi={10.1109/ICIP.2016.7533003}
     }
+    
+# Reference
 #### Github@[guillelopez]
 
