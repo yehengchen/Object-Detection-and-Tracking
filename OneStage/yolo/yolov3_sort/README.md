@@ -56,5 +56,5 @@ $ python3 main.py --input input/test.mp4 --output output/test.avi --yolo yolo-ob
     }
     
 # Reference
-#### Github@[guillelopez]（https://github.com/guillelopez/python-traffic-counter-with-yolo-and-sort）
+#### Github@ [guillelopez](https://github.com/guillelopez/python-traffic-counter-with-yolo-and-sort)
 
