@@ -19,7 +19,7 @@ from tools import generate_detections as gdet
 from deep_sort.detection import Detection as ddet
 from collections import deque
 
-# save path
+# save motion path
 pts = [deque(maxlen=30) for _ in range(9999)]
 warnings.filterwarnings('ignore')
 
