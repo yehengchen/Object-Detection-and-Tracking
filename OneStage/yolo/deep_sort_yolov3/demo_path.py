@@ -123,7 +123,8 @@ def main(yolo):
                    continue
                 thickness = int(np.sqrt(64 / float(j + 1)) * 2)
                 cv2.line(frame,(pts[track.track_id][j-1]), (pts[track.track_id][j]),(color),thickness)
-
+        
+        # object counter
         count = len(set(counter))
         cv2.putText(frame, "Total Object Counter: "+str(count),(int(20), int(120)),0, 5e-3 * 200, (0,255,0),2)
         cv2.putText(frame, "Current Object Counter: "+str(i),(int(20), int(80)),0, 5e-3 * 200, (0,255,0),2)
