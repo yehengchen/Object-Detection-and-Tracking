@@ -133,20 +133,6 @@ __Run voc_label.py can get below file__
     python3 visualization_loss.py
     python3 visualization_iou.py
 
-#### Training log
-
-    Avg IOU:当前迭代中，预测的box与标注的box的平均交并比，越大越好，期望数值为1；
-    Class: 标注物体的分类准确率，越大越好，期望数值为1；
-    obj: 越大越好，期望数值为1；
-    No obj: 越小越好；
-    .5R: 以IOU=0.5为阈值时候的recall; recall = 检出的正样本/实际的正样本
-    0.75R: 以IOU=0.75为阈值时候的recall;
-    count:正样本数目。 
-    
-    1: 1452.927612, 1452.927612 avg, 0.000000 rate, 1.877576 seconds, 32 images
-    第几批次，总损失，平均损失，当前学习率，当前批次训练时间，目前为止参与训练的图片总数
-    1： 指示当前训练的迭代次数
-    1452.927612： 是总体的Loss(损失）
 
 ***
 ## When should-i stop training
@@ -161,6 +147,22 @@ __Run voc_label.py can get below file__
 * 0.060730 avg - average loss (error) - the lower, the better
 
 For details __[when-should-i-stop-training](https://github.com/AlexeyAB/darknet#when-should-i-stop-training)__
+
+#### Training log
+
+    Avg IOU:当前迭代中，预测的box与标注的box的平均交并比，越大越好，期望数值为1；
+    Class: 标注物体的分类准确率，越大越好，期望数值为1；
+    obj: 越大越好，期望数值为1；
+    No obj: 越小越好；
+    .5R: 以IOU=0.5为阈值时候的recall; recall = 检出的正样本/实际的正样本
+    0.75R: 以IOU=0.75为阈值时候的recall;
+    count:正样本数目。 
+    
+    1: 1452.927612, 1452.927612 avg, 0.000000 rate, 1.877576 seconds, 32 images
+    第几批次，总损失，平均损失，当前学习率，当前批次训练时间，目前为止参与训练的图片总数
+    1： 指示当前训练的迭代次数
+    1452.927612： 是总体的Loss(损失）
+***
 
 ##  Train a model on VOC2007 or VOC2012
 
