@@ -28,7 +28,7 @@ It uses:
 
 3. Convert the Darknet YOLO model to a Keras model:
 ```
-$ python convert.py yolov3_1.cfg yolov3_person.weights model_data/yolo.h5
+$ python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
 ``` 
 
 4. Run the YOLO_DEEP_SORT:
