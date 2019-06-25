@@ -1,4 +1,4 @@
-# Train YOLOv3 model
+# How to train YOLOv3 model
 __[[how-to-train-to-detect-your-custom-objects]](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)__
 ### Requirement
 * Python 3.5
