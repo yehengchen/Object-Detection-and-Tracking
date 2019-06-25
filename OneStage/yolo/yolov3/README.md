@@ -135,7 +135,7 @@ __Run voc_label.py can get below file__
 
 
 ***
-## When should-i stop training
+## When should-i stop training - 什么时候停止训练
 
 1. During training, you will see varying indicators of error, and you should stop when no longer decreases 0.XXXXXXX avg:
 
