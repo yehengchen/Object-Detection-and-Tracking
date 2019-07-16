@@ -1,6 +1,8 @@
-# YOLOv3 + Deep_SORT - Object Tracker & Counter
+# YOLOv3 + Deep_SORT
+## Object Tracker & Counter
 
-![deep_sort.gif](https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif)
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="50%" height="50%">
+<img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/output_person_315_1120_s.gif" width="50%" height="50%">
 
 __Demo - [[BiliBili_V1]](https://www.bilibili.com/video/av55778717) [[BiliBili_V2]](https://www.bilibili.com/video/av55778717/?p=2)__
 ## Requirement
