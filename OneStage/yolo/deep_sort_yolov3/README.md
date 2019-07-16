@@ -34,20 +34,20 @@ $ python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
 4. Run the YOLO_DEEP_SORT:
 
 ```
-$ python demo.py
-```
-5. Run YOLO_DEEP_SORT + OpenCV draw motion path
+$ python main.py -c [CLASS NAME] -i [INPUT VIDEO PATH]
 
-```
-$ python demo_path.py
+$ python main.py -c person -i ./test_video/testvideo.avi
 ```
 
-6. Can change [deep_sort_yolov3/yolo.py] __Line 100__ to your tracking target
+5. Can change [deep_sort_yolov3/yolo.py] __Line 100__ to your tracking target
 
 *DeepSORT pre-trained weights only for person, other targets is not good, but it's ALSO NOT bad*
 ```
-if predicted_class != 'person':
-   continue
+    if predicted_class != args["class"]:
+               continue
+    
+    if predicted_class != 'person' and predicted_class != 'car':
+               continue
 ```
 
 ## Train on Market1501 & MARS
