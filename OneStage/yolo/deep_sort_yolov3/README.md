@@ -1,7 +1,7 @@
 # YOLOv3 + Deep_SORT
 ## Object Tracker & Counter
 
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="80%" height="80%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="80.9%" height="40%">
 
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/output_person_315_1120_s.gif" width="40%" height="40%"> <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/img/output_car_143.gif" width="40%" height="40%">
 
