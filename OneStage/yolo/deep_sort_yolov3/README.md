@@ -1,8 +1,9 @@
 # YOLOv3 + Deep_SORT
 ## Object Tracker & Counter
 
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="50%" height="50%">
-<img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/output_person_315_1120_s.gif" width="50%" height="50%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="80%" height="80%">
+
+<img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/output_person_315_1120_s.gif" width="40%" height="40%"> <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/img/output_car_143.gif" width="40%" height="40%">
 
 __Demo - [[BiliBili_V1]](https://www.bilibili.com/video/av55778717) [[BiliBili_V2]](https://www.bilibili.com/video/av55778717/?p=2)__
 ## Requirement
@@ -24,16 +25,15 @@ It uses:
 
 ## Quick Start
 
-1. Download the code to your computer.
+__1. Download the code to your computer.__
      
-2. Download __[[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `yolov3_sort/yolo-obj/`
+__2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `yolov3_sort/yolo-obj/`
 
-3. Convert the Darknet YOLO model to a Keras model:
+__3. Convert the Darknet YOLO model to a Keras model:__
 ```
 $ python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
 ``` 
-
-4. Run the YOLO_DEEP_SORT:
+__4. Run the YOLO_DEEP_SORT:__
 
 ```
 $ python main.py -c [CLASS NAME] -i [INPUT VIDEO PATH]
@@ -41,7 +41,7 @@ $ python main.py -c [CLASS NAME] -i [INPUT VIDEO PATH]
 $ python main.py -c person -i ./test_video/testvideo.avi
 ```
 
-5. Can change [deep_sort_yolov3/yolo.py] __Line 100__ to your tracking target
+__5. Can change [deep_sort_yolov3/yolo.py] __Line 100__ to your tracking target__
 
 *DeepSORT pre-trained weights only for person, other targets is not good, but it's ALSO NOT bad*
 ```
@@ -53,6 +53,8 @@ $ python main.py -c person -i ./test_video/testvideo.avi
 ```
 
 ## Train on Market1501 & MARS
+*Object Re-identification model*
+
 [cosine_metric_learning](https://github.com/nwojke/cosine_metric_learning) for training a metric feature representation to be used with the deep_sort tracker.
 
 ## Citation
