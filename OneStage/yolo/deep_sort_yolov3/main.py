@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import division, print_function, absolute_import
-
 import os
 import datetime
 from timeit import time
@@ -101,7 +100,6 @@ def main(yolo):
         indexIDs = []
         c = []
         boxes = []
-		#curr_class_name = class_names[0]
         for det in detections:
             bbox = det.to_tlbr()
             cv2.rectangle(frame,(int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(255,255,255), 2)
@@ -125,14 +123,12 @@ def main(yolo):
             #bbox_center_point(x,y)
             center = (int(((bbox[0])+(bbox[2]))/2),int(((bbox[1])+(bbox[3]))/2))
             #track_id[center]
-
             pts[track.track_id].append(center)
-
             thickness = 5
             #center point
             cv2.circle(frame,  (center), 1, color, thickness)
 
-			# draw motion path
+	    #draw motion path
             for j in range(1, len(pts[track.track_id])):
                 if pts[track.track_id][j - 1] is None or pts[track.track_id][j] is None:
                    continue
@@ -148,9 +144,8 @@ def main(yolo):
         cv2.resizeWindow('YOLO3_Deep_SORT', 1024, 768);
         cv2.imshow('YOLO3_Deep_SORT', frame)
 
-
         if writeVideo_flag:
-            # save a frame
+            #save a frame
             out.write(frame)
             frame_index = frame_index + 1
             list_file.write(str(frame_index)+' ')
