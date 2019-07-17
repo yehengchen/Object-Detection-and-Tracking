@@ -44,7 +44,7 @@ $ python main.py -c person -i ./test_video/testvideo.avi
 
 __5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking target__
 
-*DeepSORT pre-trained weights only for person, other targets is not good*
+*DeepSORT pre-trained weights using people-ReID datasets only for person, other targets is not good*
 ```
     if predicted_class != args["class"]:
                continue
