@@ -25,9 +25,10 @@ args = vars(ap.parse_args())
 
 class YOLO(object):
     def __init__(self):
-        self.model_path = './model_data/yolo_cc_0612.h5'
+        self.model_path = './model_data/yolo.h5'
         self.anchors_path = 'model_data/yolo_anchors.txt'
         self.classes_path = 'model_data/obj.txt'
+        #具体参数可实验后进行调整
         if args["class"] == 'person':
            self.score = 0.6 #0.8
            self.iou = 0.6
