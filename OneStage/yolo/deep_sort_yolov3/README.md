@@ -55,7 +55,7 @@ __5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking targe
 ```
 
 ## Train on Market1501 & MARS
-*Object Re-identification model*
+*People Re-identification model*
 
 [cosine_metric_learning](https://github.com/nwojke/cosine_metric_learning) for training a metric feature representation to be used with the deep_sort tracker.
 
