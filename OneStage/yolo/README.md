@@ -18,6 +18,7 @@ YOLOv3 On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% 
 *You Only Look Once:Unified, Real-Time Object Detection - [[Paper]](https://arxiv.org/pdf/1506.02640.pdf)*
 
 The YOLO (Redmon et al., 2016) model is the very first attempt at building a fast real-time object detector. Because YOLO does not undergo the region proposal step and only predicts over a limited number of bounding boxes, it is able to do inference super fast.
+
 ![The YOLO Detection System](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/yolov1.png)
 
 Processing imageswith YOLO is simple and straightforward. 
