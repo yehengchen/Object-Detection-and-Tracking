@@ -90,11 +90,10 @@ __Run voc_label.py can get below file__
 *data folder voc.names*
 
       person
-      fire_extinguisher
-      fireplug
       car
       bicycle
-      motorcycle  
+      motorcycle
+      ...
 
 * __.data__ 
 *cfg folder voc.data*
