@@ -48,7 +48,6 @@ Python 3 + Qt5
       
 * __[labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) [Transfer all labeled 2 [.txt] file in this folder and put all [.txt] file to JPEGImages folder]__
 
-***
 . <br>
 __├── [JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) <br>__
 │   ├── object_00001.jpg <br>
@@ -70,7 +69,7 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
 │   ├── yolo3_object.data <br>
 │   └── yolov3-voc-object.cfg  <br>
 └── test <br>
-
+***
 
 
 ## 2. Make .txt file - 制作 yolo 需要的文档
