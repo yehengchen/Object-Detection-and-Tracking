@@ -89,11 +89,12 @@ __Run voc_label.py can get below file__
 * __.names [classes name]__
 *data folder voc.names*
 
-      person
-      car
-      bicycle
-      motorcycle
-      ...
+    person
+    fire_extinguisher
+    fireplug
+    car
+    bicycle
+    motorcycle
 
 * __.data__ 
 *cfg folder voc.data*
