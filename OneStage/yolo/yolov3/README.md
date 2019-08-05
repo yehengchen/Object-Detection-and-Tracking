@@ -81,7 +81,7 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
 
 __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolov3/voc_label.py)* can get below file__
 
-* object_train.txt:写入用于训练图片的绝对路径，每行一个路径。
+* [object_train.txt](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolov3/object_train.txt):写入用于训练图片的绝对路径，每行一个路径。
 
 * object_val.txt:写入用于验证图片的绝对路径，每行一个路径。
 
