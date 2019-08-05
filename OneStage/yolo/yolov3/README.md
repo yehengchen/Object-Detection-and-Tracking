@@ -79,7 +79,7 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
 * [val.txt](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolov3/val.txt):写入用于验证图片的名字，每行一个名字（不带后缀.jpg） - Store all val_img name without .jpg
 
 
-__Run *voc_label.py* can get below file__
+__Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolov3/voc_label.py)* can get below file__
 
 * object_train.txt:写入用于训练图片的绝对路径，每行一个路径。
 
