@@ -40,8 +40,8 @@ Python 3 + Qt5
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 
-* __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Put all [.jpg] img in this folder]__
-* __[Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Put all labeled [.xml] file in this folder]__ 
+* __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Store all [.jpg] img in this folder]__
+* __[Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Store all labeled [.xml] file in this folder]__ 
             
       [labeled .xml file2 .txt file]
       python3 voc_label.py
