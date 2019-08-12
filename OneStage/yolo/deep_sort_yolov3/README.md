@@ -15,9 +15,9 @@ __Object Tracking & Counting Demo - [[YouTube]](https://www.youtube.com/watch?v=
 
 It uses:
 
-* Detection: [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames. - 用自己的数据训练YOLOv3模型
+* __Detection__: [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames. - 用自己的数据训练YOLOv3模型
 
-* Tracking: [Deep_SORT](https://github.com/nwojke/deep_sort) to track those objects over different frames.
+* __Tracking__: [Deep_SORT](https://github.com/nwojke/deep_sort) to track those objects over different frames.
 
 *This repository contains code for Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT). We extend the original SORT algorithm to integrate appearance information based on a deep appearance descriptor. See the [arXiv preprint](https://arxiv.org/abs/1703.07402) for more information.*
 
