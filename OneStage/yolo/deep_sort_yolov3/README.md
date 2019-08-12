@@ -15,7 +15,7 @@ __Object Tracking & Counting Demo - [[YouTube]](https://www.youtube.com/watch?v=
 
 It uses:
 
-* [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames. - 用自己的数据训练Yolov3模型
+* [YOLOv3](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames. - 用自己的数据训练YOLOv3模型
 
 * [Deep_SORT](https://github.com/nwojke/deep_sort) to track those objects over different frames.
 
