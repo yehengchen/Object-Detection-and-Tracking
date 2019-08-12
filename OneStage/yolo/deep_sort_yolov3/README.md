@@ -3,7 +3,7 @@
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="40%" height="40%"> <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/TownCentreXVID_output_ss.gif" width="40%" height="40%">
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/output_person_315_1120_s.gif" width="40%" height="40%"> <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/img/output_car_143.gif" width="40%" height="40%">
 
-__Object Tracking & Counting Demo - [[YouTube]](https://www.youtube.com/watch?v=ALw3OfrGWGo) [[BiliBili_V1]](https://www.bilibili.com/video/av55778717) [[BiliBili_V2]](https://www.bilibili.com/video/av59454144/?p=1)  [[中文文档]](https://blog.csdn.net/weixin_38107271/article/details/96741706)__
+__Object Tracking & Counting Demo - [[YouTube]](https://www.youtube.com/watch?v=ALw3OfrGWGo) [[BiliBili_V1]](https://www.bilibili.com/video/av55778717) [[BiliBili_V2]](https://www.bilibili.com/video/av59454144/?p=1)  [[CHINESE]](https://blog.csdn.net/weixin_38107271/article/details/96741706)__
 ## Requirement
 
 * OpenCV
