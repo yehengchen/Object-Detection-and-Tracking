@@ -5,7 +5,7 @@
 
 __Object Tracking & Counting Demo - [[YouTube]](https://www.youtube.com/watch?v=ALw3OfrGWGo) [[BiliBili_V1]](https://www.bilibili.com/video/av55778717) [[BiliBili_V2]](https://www.bilibili.com/video/av59454144/?p=1)  [[Chinese Version]](https://blog.csdn.net/weixin_38107271/article/details/96741706)__
 ## Requirement
-__Development Environment:[Deep-Learning-Environment-Setup](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup)__ 
+__Development Environment: [Deep-Learning-Environment-Setup](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup)__ 
 
 * OpenCV
 * NumPy
