@@ -164,7 +164,7 @@ For details __[when-should-i-stop-training](https://github.com/AlexeyAB/darknet#
     1452.927612： 是总体的Loss(损失）
 ***
 
-##  Train a model on VOC2007 or VOC2012
+##  Train a model on VOC2007 / VOC2012 / COCO2017
 
 ### VOC2007 Data
 
