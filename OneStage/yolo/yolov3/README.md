@@ -173,6 +173,14 @@ For details __[when-should-i-stop-training](https://github.com/AlexeyAB/darknet#
 ### VOC2012 Data
 
 * Download the [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) (2GB tar file)
+
+### COCO2017 Data
+
+* Download the [2017 Train images](http://images.cocodataset.org/zips/train2017.zip) [118K/18GB]
+* Download the [2017 Val images](http://images.cocodataset.org/zips/val2017.zip) [5K/1GB]
+* Download the [2017 Test images](http://images.cocodataset.org/zips/test2017.zip) [41K/6GB]
+* COCO API/[PythonAPI](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI)
+
 ***
 
 ## TEST
