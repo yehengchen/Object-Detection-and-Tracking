@@ -12,7 +12,7 @@ YOLOv3 On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% 
 |YOLOv3-320|COCO trainval|test-dev| 51.5 | 45 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) | [weights](https://pjreddie.com/media/files/yolov3.weights)||
 |YOLOv3-608|COCO trainval|test-dev| 57.9 | 20 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) | [weights](https://pjreddie.com/media/files/yolov3.weights)||
 |YOLOv3-tiny|COCO trainval|test-dev| 33.1 | 220 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg) | [weights](https://pjreddie.com/media/files/yolov3-tiny.weights)||
-
+|YOLOv3-spp|COCO trainval|test-dev| 60.6 | 20 | [Cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-spp.cfg) | [weights](https://pjreddie.com/media/files/yolov3-spp.weights)||
 ***
 # YOLOv1
 *You Only Look Once:Unified, Real-Time Object Detection - [[Paper]](https://arxiv.org/pdf/1506.02640.pdf)*
