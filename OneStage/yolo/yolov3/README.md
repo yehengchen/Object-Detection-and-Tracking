@@ -127,8 +127,8 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
     ./darknet detector train obj_detect/cfg/obj_voc.data obj_detect/cfg/yolov3-voc.cfg darknet53.conv.74 2>1 | tee visualization/train_yolov3.log
 
 #### Log Visualization - 训练可视化
+__在 extract_log.py 中修改 train_yolov3.log 路径__
     
-    # 在 extract_log.py 中修改 train_yolov3.log 路径
     python3 extract_log.py
     python3 visualization_loss.py
     python3 visualization_iou.py
