@@ -22,7 +22,7 @@ __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yeheng
 
 <img src="https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif" width="50%" height="50%">
 
-* #### YOLOv3 + ROS Kinetic - Custom Data - [[Link]](https://github.com/yehengchen/YOLOv3_ROS)
+* #### YOLOv3 + ROS Kinetic - For small Custom Data - [[Link]](https://github.com/yehengchen/YOLOv3_ROS)
 
 ***
 
