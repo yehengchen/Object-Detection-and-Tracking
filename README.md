@@ -43,7 +43,7 @@ __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yeheng
 ### COCO & VOC Datasets
 * #### COCO dataset and Pascal VOC dataset - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/COCO%20and%20Pascal%20VOC.md)
 * #### How to get it working on the COCO dataset __coco2voc__ - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/coco2voc.md)
-* #### Convert Dataset2Yolo - COCO / VOC -[[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/convert2Yolo)
+* #### Convert Dataset2Yolo - COCO / VOC - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/convert2Yolo)
 
 ***
 # Paper list from 2014 to now(2019)
