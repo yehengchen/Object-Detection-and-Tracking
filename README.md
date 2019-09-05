@@ -40,6 +40,8 @@ __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yeheng
 
 * #### Mask R-CNN + ROS Kinetic - [[Link]](https://github.com/yehengchen/mask_rcnn_ros)
 
+This project is ROS package of Mask R-CNN algorithm for object detection and segmentation.
+
 ***
 
 ### COCO & VOC Datasets
