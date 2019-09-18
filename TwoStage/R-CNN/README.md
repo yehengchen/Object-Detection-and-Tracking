@@ -1,6 +1,11 @@
 # Maks R-CNN
 
 ## [labelme](https://github.com/wkentaro/labelme) - Image Polygonal Annotation with Python 
+
+<div align="left">
+  <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/TwoStage/R-CNN/annotation.jpg" width="70%">
+</div>
+
 ### Requirements
 
 - Ubuntu / macOS / Windows
