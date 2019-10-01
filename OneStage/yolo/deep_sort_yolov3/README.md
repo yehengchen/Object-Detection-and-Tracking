@@ -24,6 +24,10 @@ It uses:
 
 ## Quick Start
 
+__0.Requirements__
+
+    pip install -r requirements.txt
+    
 __1. Download the code to your computer.__
     
     git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
