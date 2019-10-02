@@ -45,7 +45,7 @@ __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yeheng
 
 __How to train a Mask R-CNN model on own images - [[Link]](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/TwoStage/R-CNN)__
 
-<img src="https://github.com/yehengchen/mask_rcnn_ros/blob/master/scripts/mask_rcnn.gif" width="50%" height="50%">
+<img src="https://github.com/yehengchen/mask_rcnn_ros/blob/master/scripts/mask_rcnn.gif" width="60%" height="60%">
 
 * #### Mask R-CNN + ROS Kinetic - [[Link]](https://github.com/yehengchen/mask_rcnn_ros)
 
