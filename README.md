@@ -29,7 +29,7 @@ __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yeheng
 * #### YOLOv3 + ROS Kinetic - For small Custom Data - [[Link]](https://github.com/yehengchen/YOLOv3_ROS)
 ***
 
-<img src="https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png" width="60%" height="60%">
+<img src="https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png" width="60%" height="100%">
 
 * #### YOLOv3 + ROS Melodic - Robot grasp detection - [[Link]](https://github.com/yehengchen/YOLOv3_ROS/tree/master/yolov3_pytorch_ros)
 
