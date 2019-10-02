@@ -14,24 +14,24 @@ __Tensorflow detection model zoo : [[tf-model zoo]](https://github.com/yehengche
 __How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)__
 
 ***
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="50%" height="50%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="60%" height="60%">
 
 * #### YOLOv3 + Deep_SORT - Object Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/deep_sort_yolov3)
 
 ***
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="50%" height="50%">
+<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="60%" height="60%">
 
 * #### YOLOv3 + SORT - Person Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 
 ***
-<img src="https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif" width="50%" height="50%">
+<img src="https://github.com/yehengchen/yolov3_ros/blob/master/ros_yolov3_tiny.gif" width="60%" height="60%">
 
 * #### YOLOv3 + ROS Kinetic - For small Custom Data - [[Link]](https://github.com/yehengchen/YOLOv3_ROS)
 ***
 
-<img src="https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png" width="100%" height="100%">
+<img src="https://github.com/yehengchen/YOLOv3_ROS/blob/master/yolov3_pytorch_ros/models/screw_gazebo.png" width="50%" height="50%">
 
-* #### YOLOv3 + ROS Kinetic - For small Custom Data - [[Link]](https://github.com/yehengchen/YOLOv3_ROS)
+* #### YOLOv3 + ROS Melodic - Robot grasp detection - [[Link]](https://github.com/yehengchen/YOLOv3_ROS/tree/master/yolov3_pytorch_ros)
 
 
 ***
