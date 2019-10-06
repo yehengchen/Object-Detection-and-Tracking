@@ -11,7 +11,7 @@ __Tensorflow detection model zoo : [[tf-model zoo]](https://github.com/yehengche
 ## [OneStage]
 ### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection and Tracking
 
-__How to train a YOLOv3 model on own images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)__
+__How to train a YOLOv3 model on custom images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)__
 
 ***
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="60%" height="60%">
