@@ -32,7 +32,7 @@ __1. Download the code to your computer.__
     
     git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
     
-__2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `yolov3_sort/yolo-obj/`
+__2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov3/model_data`
 
 *__Here you can download my trained [[yolo_cc_0612.h5]](https://drive.google.com/open?id=1MJBmDxMgPDTno-5DRvnpVth10Rnu-DWO) weights for detection small targets - person/car/bicycle,etc.__*
 
