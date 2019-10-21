@@ -32,13 +32,13 @@ __1. Download the code to your computer.__
     
     git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
     
-__2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov3/model_data`
+__2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov3/model_data/`
 
 *__Here you can download my trained [[yolo_cc_0612.h5]](https://drive.google.com/open?id=1MJBmDxMgPDTno-5DRvnpVth10Rnu-DWO) weights for detection small targets - person/car/bicycle,etc.__*
 
 __3. Convert the Darknet YOLO model to a Keras model:__
 ```
-$ python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
+$ python convert.py model_data/yolov3.cfg model_data/yolov3.weights model_data/yolo.h5
 ``` 
 __4. Run the YOLO_DEEP_SORT:__
 
