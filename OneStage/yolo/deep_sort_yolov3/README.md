@@ -34,7 +34,7 @@ __1. Download the code to your computer.__
     
 __2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov3/model_data/`
 
-*__Here you can download my trained [[yolo-spp.h5]](https://pan.baidu.com/s/1DoiifwXrss1QgSQBp2vv8w&shfl=shareset)-_[t13k]__ weights for detection small targets - person/car/bicycle,etc.__*
+*__Here you can download my trained [[yolo-spp.h5]](https://pan.baidu.com/s/1DoiifwXrss1QgSQBp2vv8w&shfl=shareset) - [t13k]__ weights for detection small targets - person/car/bicycle,etc.__*
 
 __3. Convert the Darknet YOLO model to a Keras model:__
 ```
