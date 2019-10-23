@@ -32,7 +32,7 @@ class YOLO(object):
         if args["class"] == 'person':
            self.score = 0.6 #0.8
            self.iou = 0.6
-           self.model_image_size = (1120,1120)#(1120, 1120)
+           self.model_image_size = (416,416)
         if args["class"] == 'car':
            self.score = 0.6
            self.iou = 0.6
