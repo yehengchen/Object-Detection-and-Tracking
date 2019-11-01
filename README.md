@@ -23,6 +23,8 @@ __How to train a YOLOv3 model on custom images - [[Link]](https://github.com/yeh
 
 * #### YOLOv3 + SORT - Person Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 
+### [Darknet_ROS](https://github.com/yehengchen/YOLOv3-ROS/tree/master/darknet_ros): Real-Time Object Detection and Rotation Grasp Detection With ROS 
+
 ***
 <img src="https://github.com/yehengchen/YOLOv3-ROS/blob/master/darknet_ros/yolo_network_config/weights/output.gif" width="60%" height="60%">
 
