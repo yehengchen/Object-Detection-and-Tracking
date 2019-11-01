@@ -36,7 +36,7 @@ __How to train a YOLOv3 model on custom images - [[Link]](https://github.com/yeh
 
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="60%" height="100%">
 
-* #### YOLOv3 + OpenCV + ROS Melodic - Rotation Screw Detection - [[Link]](https://github.com/yehengchen/YOLOv3_ROS/tree/master/yolov3_pytorch_ros)
+* #### YOLOv3 + OpenCV + ROS Melodic - Rotation Screw Detection - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_grasp_detection_ros)
 
 ***
 ### [SSD](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/ssd): Single Shot MultiBox Detector
