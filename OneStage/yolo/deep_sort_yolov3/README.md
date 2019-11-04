@@ -34,7 +34,7 @@ __1. Download the code to your computer.__
     
 __2. Download [[yolov3.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov3/model_data/`
 
-*Here you can download my trained [[yolo-spp.h5]](https://pan.baidu.com/s/1DoiifwXrss1QgSQBp2vv8w&shfl=shareset) - [t13k] weights for detection small targets - person/car/bicycle,etc.*
+*Here you can download my trained [[yolo-spp.h5]](https://pan.baidu.com/s/1DoiifwXrss1QgSQBp2vv8w&shfl=shareset) - [t13k] weights for detection small objects - person/car/bicycle,etc.*
 
 __3. Convert the Darknet YOLO model to a Keras model:__
 ```
@@ -48,9 +48,9 @@ $ python main.py -c [CLASS NAME] -i [INPUT VIDEO PATH]
 $ python main.py -c person -i ./test_video/testvideo.avi
 ```
 
-__5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking target__
+__5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking object__
 
-*DeepSORT pre-trained weights using people-ReID datasets only for person, other targets is not good*
+*DeepSORT pre-trained weights using people-ReID datasets only for person, other classes is not good*
 ```
     if predicted_class != args["class"]:
                continue
