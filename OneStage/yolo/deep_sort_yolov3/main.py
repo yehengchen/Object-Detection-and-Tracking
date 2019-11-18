@@ -54,13 +54,6 @@ def main(yolo):
     writeVideo_flag = True
     #video_path = "../../yolo_dataset/t1_video/test_video/det_t1_video_00025_test.avi"
     video_capture = cv2.VideoCapture(args["input"])
-    #print(args["input"][39:])
-    obj_count_txt_filename = '/home/cai/Desktop/object_detection/deep_sort_yolov3/counter.txt'
-    counting_num_txt = '/home/cai/Desktop/object_detection/deep_sort_yolov3/num.txt'
-    count_file = open(obj_count_txt_filename,'a')
-    count_file.write('\n')
-
-
 
     if writeVideo_flag:
     # Define the codec and create VideoWriter object
@@ -165,14 +158,12 @@ def main(yolo):
 
     if len(pts[track.track_id]) != None:
        print(args["input"][43:57]+": "+ str(count) + " " + str(class_name) +' Found')
-       count_file.write(str("[VIDEO]: "+(args["input"][43:57])) + " " + str(class_name) + " " + (str(count))+ " " + "[MODEL]: yolo_cc_0612.h5" +" " + "[TIME]:"+(str('%.2f' %(end-start))))
 
     else:
        print("[No Found]")
 
     video_capture.release()
-    count_file.write('\n')
-    count_file.close()
+
     if writeVideo_flag:
         out.release()
         list_file.close()
