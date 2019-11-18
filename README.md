@@ -16,12 +16,12 @@ __How to train a YOLOv3 model on custom images - [[Link]](https://github.com/yeh
 ***
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="60%" height="60%">
 
-* #### YOLOv3 + Deep_SORT - Object Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/deep_sort_yolov3)
+* #### YOLOv3 + Deep_SORT - Pedestrian&Car Counting - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/deep_sort_yolov3)
 
 ***
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="60%" height="60%">
 
-* #### YOLOv3 + SORT - Person Counter - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
+* #### YOLOv3 + SORT - Pedestrian Counting - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 ***
 
 ### [Darknet_ROS](https://github.com/yehengchen/YOLOv3-ROS/tree/master/darknet_ros): Real-Time Object Detection and Rotation Grasp Detection With ROS 
