@@ -33,7 +33,6 @@ warnings.filterwarnings('ignore')
 np.random.seed(100)
 COLORS = np.random.randint(0, 255, size=(200, 3),
 	dtype="uint8")
-#list = [[] for _ in range(100)]
 
 def main(yolo):
 
