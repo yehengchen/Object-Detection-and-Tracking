@@ -13,6 +13,7 @@ __Tensorflow detection model zoo : [[tf-model zoo]](https://github.com/yehengche
 * ##### GTX 1080Ti / RTX 2080Ti
 * ##### python 2.7 / 3.6
 
+*I have tested on Ubuntu 16.04/18.04. The code may work on other systems.*
 
 ## Installation
 
