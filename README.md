@@ -14,13 +14,14 @@ __Tensorflow detection model zoo : [[tf-model zoo]](https://github.com/yehengche
 * ##### python 2.7 / 3.6
 
 I have tested on Ubuntu 16.04/18.04. The code may work on other systems.
+[[Ubuntu-Deep-Learning-Environment-Setup]](https://github.com/yehengchen/Ubuntu-Deep-Learning-Environment-Setup)
 
 ## Installation
 
 Clone the repository
 
 ```
-git clone https://github.com/yangxue0827/R2CNN_FPN_Tensorflow.git    
+git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 ```
 
 ***
