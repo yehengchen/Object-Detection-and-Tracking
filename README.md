@@ -7,6 +7,21 @@ __Tensorflow detection model zoo : [[tf-model zoo]](https://github.com/yehengche
 
 *Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos.*
 
+## Environment
+* ##### Ubuntu 16.04 / 18.04 
+* ##### ROS Kinetic / Melodic
+* ##### GTX 1080Ti / RTX 2080Ti
+* ##### python 2.7 / 3.6
+
+
+## Installation
+
+Clone the repository
+
+```
+git clone https://github.com/yangxue0827/R2CNN_FPN_Tensorflow.git    
+```
+
 ***
 ## [OneStage]
 ### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection and Tracking
