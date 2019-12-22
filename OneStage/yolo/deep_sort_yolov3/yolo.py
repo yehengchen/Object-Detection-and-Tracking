@@ -41,11 +41,7 @@ class YOLO(object):
            self.score = 0.6
            self.iou = 0.6
            self.model_image_size = (416, 416)
-        if args["class"] == 'fire_extinguisher' or args["class"] == 'fireplug':
-           self.score = 0.4#0.4
-           self.iou = 0.6
-           self.model_image_size = (416, 416)
-
+        
         self.class_names = self._get_class()
         self.anchors = self._get_anchors()
         self.sess = K.get_session()
@@ -127,7 +123,7 @@ class YOLO(object):
                print(predicted_class)
                continue
             '''
-            if predicted_class != args["class"]:#and predicted_class != 'car':
+            if predicted_class != args["class"]:
                #print(predicted_class)
                continue
 
