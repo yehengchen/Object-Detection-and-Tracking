@@ -51,6 +51,8 @@ __How to train a YOLOv3 model on custom images - [[Link]](https://github.com/yeh
 <img src="https://github.com/yehengchen/YOLOv3-ROS/blob/master/yolov3_pytorch_ros/models/output.gif" width="60%" height="100%">
 
 * #### YOLOv3 + ROS Melodic - Robot Grasp Detection - [[Link]](https://github.com/yehengchen/YOLOv3_ROS/tree/master/yolov3_pytorch_ros)
+
+* #### Parts-Arrangement-Robot - [[Link]](https://github.com/yehengchen/Parts-Arrangement-Robot)
 ***
 
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="60%" height="100%">
