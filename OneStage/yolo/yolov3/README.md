@@ -39,6 +39,13 @@ Python 3 + Qt5
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+For example for img1.jpg you will be created img1.txt containing:
+```
+<object-class> <x_center> <y_center> <width> <height>
+1 0.716797 0.395833 0.216406 0.147222
+0 0.687109 0.379167 0.255469 0.158333
+1 0.420312 0.395833 0.140625 0.166667
+```
 
 * __[JPEGImages](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/JPEGImages) [Store all [.jpg] img in this folder]__
 * __[Annotations](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/Annotations) [Store all labeled [.xml] file in this folder]__ 
@@ -59,7 +66,7 @@ __├── [Annotations](https://github.com/yehengchen/ObjectDetection/tree/mas
 │   ... <br>
 __├── [labels](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/labels) <br>__
 │   ├── object_00001.txt <br>
-│   └── object_00002.txt <br>
+│   └── object_00002.txt <br> 
 │   ... <br>
 __├── [backup](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3/backup) <br>__
 │   ├── yolov3-voc-object.backup <br>
@@ -106,11 +113,11 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
 * __.data__ 
 *cfg folder voc.data*
      
-      classes= 6  #类别数
-      train = /home/cai/Desktop/yolo_dataset/objectdetection/object_train.txt #obj_train.txt路径
-      valid = /home/cai/Desktop/yolo_dataset/objectdetection/object_val.txt  #obj_val.txt路径
-      names = /home/cai/Desktop/yolo_dataset/objectdetection/yolo3_object.names #obj_voc.names路径
-      backup = /home/cai/Desktop/yolo_dataset/objectdetection/backup/ #建一个backup文件夹用于存放weights结果
+    classes= 6  #类别数
+    train  = data/object_train.txt #obj_train.txt 路径
+    valid  = data/object_val.txt  #obj_val.txt 路径
+    names = data/yolo3_object.names #obj_voc.names 路径
+    backup = backup/ #建一个 backup 文件夹用于存放 weights 结果
  
  * __.cgf__
  *cfg folder yolov3-voc.cfg - __[example.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/cfg/example.cfg)__*
