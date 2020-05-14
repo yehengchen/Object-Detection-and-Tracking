@@ -101,7 +101,7 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
 
 ## 3. Make .names .cgf and .data file 
 * __.names [classes name]__
-*data folder voc.names*
+*stored in data folder - voc.names*
 
     person
     fire_extinguisher
@@ -111,7 +111,7 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
     motorcycle
 
 * __.data__ 
-*cfg folder voc.data*
+*stored in cfg folder - voc.data*
      
     classes= 6  #类别数
     train  = data/object_train.txt #obj_train.txt 路径
@@ -120,7 +120,7 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
     backup = backup/ #建一个 backup 文件夹用于存放 weights 结果
  
  * __.cgf__
- *cfg folder yolov3-voc.cfg - __[example.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/cfg/example.cfg)__*
+ *stored in cfg folder - yolov3-voc.cfg - __[example.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/cfg/example.cfg)__*
        
        [convolutional]
        ...
