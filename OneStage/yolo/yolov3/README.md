@@ -122,13 +122,13 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
  * __.cgf__
  *stored in cfg folder - yolov3-voc.cfg - __[example.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/cfg/example.cfg)__*
 ```       
-       [convolutional]
-       ...
-       filters = 3*(classes + 5) #修改filters数量
-       [yolo]
-       ...
-       classes=5 #修改类别数
-       [具体修改可见cfg文件]
+    [convolutional]
+    ...
+    filters = 3*(classes + 5) #修改filters数量
+    [yolo]
+    ...
+    classes=5 #修改类别数
+    [具体修改可见cfg文件]
 ```
     * change line __max_batches__ to (__classes*2000__ but not less than number of training images, and __not less than 6000__), f.e. max_batches=6000 if you train for 3 classes.
 
