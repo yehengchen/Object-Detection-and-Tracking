@@ -102,26 +102,26 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
 ## 3. Make .names .cgf and .data file 
 * __.names [classes name]__
 *stored in data folder - voc.names*
-
+```
     person
     fire_extinguisher
     fireplug
     car
     bicycle
     motorcycle
-
+```
 * __.data__ 
 *stored in cfg folder - voc.data*
-     
+```     
     classes= 6  #类别数
     train  = data/object_train.txt #obj_train.txt 路径
     valid  = data/object_val.txt  #obj_val.txt 路径
     names = data/yolo3_object.names #obj_voc.names 路径
     backup = backup/ #建一个 backup 文件夹用于存放 weights 结果
- 
+ ```
  * __.cgf__
  *stored in cfg folder - yolov3-voc.cfg - __[example.cfg](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolov3/cfg/example.cfg)__*
-       
+```       
        [convolutional]
        ...
        filters = 3*(classes + 5) #修改filters数量
@@ -129,7 +129,7 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
        ...
        classes=5 #修改类别数
        [具体修改可见cfg文件]
-
+```
     * change line __max_batches__ to (__classes*2000__ but not less than number of training images, and __not less than 6000__), f.e. max_batches=6000 if you train for 3 classes.
 
     * change line steps to __80%__ and __90%__ of max_batches, f.e. __steps=4800,5400__
