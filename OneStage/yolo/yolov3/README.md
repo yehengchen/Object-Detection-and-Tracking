@@ -130,7 +130,7 @@ __Run *[voc_label.py](https://github.com/yehengchen/Object-Detection-and-Trackin
        classes=5 #修改类别数
        [具体修改可见cfg文件]
 
-change line __max_batches__ to (__classes*2000__ but not less than number of training images, and __not less than 6000__), f.e. max_batches=6000 if you train for 3 classes.
+    change line __max_batches__ to (__classes*2000__ but not less than number of training images, and __not less than 6000__), f.e. max_batches=6000 if you train for 3 classes.
 
 change line steps to __80%__ and __90%__ of max_batches, f.e. __steps=4800,5400__
        
