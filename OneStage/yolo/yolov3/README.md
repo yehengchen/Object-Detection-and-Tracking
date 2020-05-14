@@ -73,7 +73,7 @@ __├── [cfg](https://github.com/yehengchen/ObjectDetection/tree/master/OneS
 
 
 ## 2. Make .txt file - 制作 yolo 需要的文档
-* img2train.py ： 将图像分为训练和验证集，保存为train.txt和val.txt
+__[img2train.py](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolov3/img2train.py)__ ： 将图像分为训练和验证集，保存为train.txt和val.txt
 ```
 input: 
     python3 img2train.py /home/andy/Data/img
