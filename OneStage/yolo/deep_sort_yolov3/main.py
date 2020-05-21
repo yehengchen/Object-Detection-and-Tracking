@@ -38,7 +38,7 @@ def main(yolo):
 
     start = time.time()
     #Definition of the parameters
-    max_cosine_distance = 0.5#0.9 余弦距离的控制阈值
+    max_cosine_distance = 0.5 #余弦距离的控制阈值
     nn_budget = None
     nms_max_overlap = 0.3 #非极大抑制的阈值
 
@@ -51,7 +51,7 @@ def main(yolo):
     tracker = Tracker(metric)
 
     writeVideo_flag = True
-    #video_path = "../../yolo_dataset/t1_video/test_video/det_t1_video_00025_test.avi"
+    #video_path = "./output/output.avi"
     video_capture = cv2.VideoCapture(args["input"])
 
     if writeVideo_flag:
