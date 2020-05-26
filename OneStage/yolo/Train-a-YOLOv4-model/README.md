@@ -65,7 +65,7 @@ Ubuntu Linux Python5 + Qt5
  * train.txt -- Store all train_img name without .jpg
  * val.txt -- Store all val_img name without .jpg
 
-#### Run voc_label.py can get below file
+#### Run [voc_label.py](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/Train-a-YOLOv4-model/tools/voc_label.py) can get below file
 
  * object_train.txt -- Store all train_img __absolute path__
  * object_val.txt -- Store all val_img __absolute path__
@@ -89,8 +89,8 @@ Ubuntu Linux Python5 + Qt5
        gedit obj.data
           
        classes= [number of objects]
-       train = [obj_train.txt absolute path]
-       valid = [obj_val.txt absolute path]
+       train = [object_train.txt absolute path]
+       valid = [object_val.txt absolute path]
        names = [train.names absolute path]
        backup = backup/ #save weights files here
      
