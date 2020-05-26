@@ -1,12 +1,12 @@
 # How to train YOLOv4 model on own dataset
 
 ## Environment
- * Ubuntu 18.04
- * tensorflow-gpu 1.13.0
+ * Ubuntu 16.04/18.04
  * CUDA 10.0
  * cuDNN 7.6.0
  * Python 3.6
  * OpenCV 4.2.0
+ * tensorflow-gpu 1.13.0
  
 #### Requirements
 
