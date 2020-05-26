@@ -6,7 +6,9 @@
  * cuDNN 7.6.0
  * Python 3.6
  * OpenCV 4.2.0
-      
+ 
+#### Requirements
+
        pip3 install -r requirements.txt
        
 ## Download the source code
