@@ -116,7 +116,8 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
       - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L689
       - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L776
 
-  ### Training
+## Training
+
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/Train-a-YOLOv4-model/imgs/chart_yolov4-custom.png" width="60%" height="60%">
  
   * Training and visualization
@@ -127,8 +128,7 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
 
         sudo ./darknet detector train [obj.data path] [yolov4-custom.cfg path]  yolov4.conv.137 -gpus 0,1,2 -map
 
- 
- ### Test
+ ## Testing
 
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/Train-a-YOLOv4-model/imgs/yolov4.png" width="60%" height="60%">
 
