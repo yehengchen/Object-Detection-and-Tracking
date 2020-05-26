@@ -30,6 +30,9 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 
 __How to train a YOLOv3 model on custom images - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3)__
 
+__How to train a YOLOv4 model on custom images - [[Link]]()__
+
+
 ***
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/output_49.gif" width="60%" height="60%">
 
