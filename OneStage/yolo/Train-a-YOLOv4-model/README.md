@@ -8,11 +8,11 @@
  * OpenCV 4.2.0
  * tensorflow-gpu 1.13.0
  
-#### Requirements
+### Requirements
 
        pip3 install -r requirements.txt
        
-## Download the source code
+### Download the source code
 
      git clone https://github.com/AlexeyAB/darknet.git
      cd darknet
@@ -30,11 +30,11 @@
     
      make
     
-## Download pre-trained weights file
+### Download pre-trained weights file
 
 [yolov4.conv.137](https://drive.google.com/file/d/1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp/view)
     
-## Image labeling
+### Image labeling
 
 LabelImg is a graphical image annotation tool - [labelImg](https://github.com/tzutalin/labelImg)
 
@@ -56,21 +56,21 @@ Ubuntu Linux Python5 + Qt5
    
        python3 ./tools/voc_label.py (convert xml2txt and check your file paths)
        
-##  Make path[.txt] file
+###  Make path[.txt] file
 
-### First you have to devide your dataset into train dataset and validation dataset.
+#### First you have to devide your dataset into train dataset and validation dataset.
 
        python3 ./tools/img2train.py [img path]
       
  * train.txt -- Store all train_img name without .jpg
  * val.txt -- Store all val_img name without .jpg
 
-### Run voc_label.py can get below file
+#### Run voc_label.py can get below file
 
  * object_train.txt -- Store all train_img __absolute path__
  * object_val.txt -- Store all val_img __absolute path__
 
- ## Make [.names] [.data] and [.cfg] file
+### Make [.names] [.data] and [.cfg] file
  
  * .names file
  
@@ -116,7 +116,7 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
       - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L689
       - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L776
 
-  ## Training
+  ### Training
   
   * Training and visualization
  
@@ -126,7 +126,7 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
 
         sudo ./darknet detector train [obj.data path] [yolov4-custom.cfg path]  yolov4.conv.137 -gpus 0,1,2 -map
  
- ## Test
+ ### Test
  
    * Image test
    
