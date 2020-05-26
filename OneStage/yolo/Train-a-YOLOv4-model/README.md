@@ -32,7 +32,9 @@
     
 ### Download pre-trained weights file
 
-[yolov4.conv.137](https://drive.google.com/file/d/1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp/view)
+[Google drive]: [yolov4.conv.137](https://drive.google.com/file/d/1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp/view)
+
+[Baidu drive]: [yolov4.conv.137](https://pan.baidu.com/s/1OvuN0CeS7RFj-bdM0d25AA)  __code: nppt__
     
 ### Image labeling
 
