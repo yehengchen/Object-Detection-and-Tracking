@@ -56,7 +56,7 @@ Ubuntu Linux Python5 + Qt5
    
        python3 ./tools/voc_label.py (convert xml2txt and check your file paths)
        
-###  Make path[.txt] file
+###  Make img path [.txt] file
 
 #### First you have to devide your dataset into train dataset and validation dataset.
 
