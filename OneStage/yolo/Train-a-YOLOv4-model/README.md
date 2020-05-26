@@ -2,6 +2,7 @@
 
 ## Environment
  * Ubuntu 18.04
+ * tensorflow-gpu 1.13.0
  * CUDA 10.0
  * cuDNN 7.6.0
  * Python 3.6
