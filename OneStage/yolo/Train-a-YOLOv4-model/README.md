@@ -114,10 +114,12 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
       - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L776
 
   ## Training
+  
+  * Training and visualization
  
         sudo ./darknet detector train [obj.data path] [yolov4-custom.cfg path]  yolov4.conv.137 -map
         
-  * train with multi-GPU
+  * Train with multi-GPU
 
         sudo ./darknet detector train [obj.data path] [yolov4-custom.cfg path]  yolov4.conv.137 -gpus 0,1,2 -map
  
@@ -132,6 +134,6 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
           ./darknet detector demo [obj.data path] [yolov4-custom.cfg path] [weights file path] [video path]
         
       
-      If you want to save video test results
+   * If you want to save video test results
         
            ./darknet detector demo [obj.data path] [yolov4-custom.cfg path] [weights file path] [video path] -out_filename [Custom naming]
