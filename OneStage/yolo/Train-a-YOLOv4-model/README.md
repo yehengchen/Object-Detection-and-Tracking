@@ -47,11 +47,11 @@ Ubuntu Linux Python5 + Qt5
      python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
     
     
- * JPEGImages -- Store all [.jpg] imgages
- * Annotations -- Store all labeled [.xml] file
- * labels -- Transfer all labeled [.xml] file to [.txt] file
+ * JPEGImages -- Store all __[.jpg]__ imgages
+ * Annotations -- Store all labeled __[.xml]__ file
+ * labels -- Store all __[.txt]__ file (convert all __[.xml]__ file to __[.txt]__ file)
    
-       python3 ./tools/voc_label.py (change and check your file paths)
+       python3 ./tools/voc_label.py (convert xml2txt and check your file paths)
        
 ##  Make path[.txt] file
 
@@ -64,14 +64,14 @@ Ubuntu Linux Python5 + Qt5
 
 ### Run voc_label.py can get below file
 
- * object_train.txt -- Store all train_img paths
- * object_val.txt -- Store all val_img paths
+ * object_train.txt -- Store all train_img __absolute path__
+ * object_val.txt -- Store all val_img __absolute path__
 
  ## Make [.names] [.data] and [.cfg] file
  
  * .names file
  
-        vim train.names
+         gedit train.names
          
          class1
          class2
@@ -83,12 +83,12 @@ Ubuntu Linux Python5 + Qt5
  
  * .data file
           
-          vim obj.data
+          gedit obj.data
           
           classes= [number of objects]
-          train = [obj_train.txt path]
-          valid = [obj_val.txt path]
-          names = [train.names path]
+          train = [obj_train.txt absolute path]
+          valid = [obj_val.txt absolute path]
+          names = [train.names absolute path]
           backup = backup/ #save weights files here
      
     Put your class number and path in obj.data, save and quit.
