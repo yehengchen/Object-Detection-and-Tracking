@@ -28,7 +28,7 @@
     LIBSO=1 
     ZED_CAMERA=1 
     
-     make
+    make
     
 ### Download pre-trained weights file
 
