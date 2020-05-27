@@ -42,7 +42,7 @@
 
 LabelImg is a graphical image annotation tool - [labelImg](https://github.com/tzutalin/labelImg)
 
-Ubuntu Linux Python5 + Qt5
+Ubuntu Linux Python3 + Qt5
          
     git clone https://github.com/tzutalin/labelImg.git
     sudo apt-get install pyqt5-dev-tools
