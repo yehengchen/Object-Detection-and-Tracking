@@ -1,5 +1,10 @@
-# Object Detection and Tracking
-***
+<h1 align="center">
+  Object Detection and Tracking
+</h1># 
+
+<div align="center">
+  <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/objectdetection.gif" width="50%" height="50%">
+</div>
 
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/objectdetection.gif" width="50%" height="50%">
 
