@@ -136,15 +136,15 @@ change line classes=80 to your number of objects in each of 3 [yolo]-layers:
 
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/Train-a-YOLOv4-model/imgs/yolov4.png" width="60%" height="60%">
 
-   * Image test
+   * Test on image
    
          ./darknet detector test [obj.data path] [yolov4-custom.cfg path] [weights file path] [image path]
        
-   * VIdeo test
+   * Test on video
    
          ./darknet detector demo [obj.data path] [yolov4-custom.cfg path] [weights file path] [video path]
         
       
-   * If you want to save video test results
+   * If you want to save test video results
         
          ./darknet detector demo [obj.data path] [yolov4-custom.cfg path] [weights file path] [video path] -out_filename [Custom naming]
