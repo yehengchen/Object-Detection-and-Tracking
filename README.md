@@ -101,7 +101,7 @@ This project is ROS package of Mask R-CNN algorithm for object detection and seg
 
 #### ObjectDetection mAP & IoU - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/mAP%26IoU.md)
 
-
+#### Robot Vision Paper List (3D object detection & 6D pose estimation) - [Link](https://github.com/yehengchen/Computer-Vision-and-Robotics-Paper-List/blob/master/README.md)
 
 *** 
 
