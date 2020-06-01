@@ -108,18 +108,19 @@ Ubuntu Linux Python3 + Qt5
     * change line steps to __80% and 90%__ of max_batches, f.e. steps=4800,5400
     * set network size width=416 height=416 or any value multiple of 32: [yolov4-custom.cfg#L8-L9](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L8-L9)
 
-change line classes=80 to your number of objects in each of 3 [yolo]-layers:
+    * change line classes=80 to your number of objects in each of 3 [yolo]-layers:
 
-      - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L610
-      - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L696
-      - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L783
+      
+      - [yolov4-custom.cfg#L970](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L970)
+      - [yolov4-custom.cfg#L1058](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L1058)
+      - [yolov4-custom.cfg#L1146](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L1146)
 
     
-   * change __[filters=255]__ to __filters=(classes + 5)x3__ in the __3 [convolutional]__ before each __[yolo] layer__, keep in mind that it only has to be the last [convolutional] before each of the [yolo] layers.
+    * change __[filters=255]__ to __filters=(classes + 5)x3__ in the __3 [convolutional]__ before each __[yolo] layer__, keep in mind that it only has to be the last [convolutional] before each of the [yolo] layers.
 
-      - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L603
-      - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L689
-      - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L776
+      - [yolov4-custom.cfg#L963](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L963)
+      - [yolov4-custom.cfg#L1051](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L1051)
+      - [yolov4-custom.cfg#L1139](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L1139)
 
 ## Training
 
