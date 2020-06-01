@@ -8,16 +8,16 @@
  * OpenCV 4.2.0
  * tensorflow-gpu 1.13.0
  
-### Requirements
+### 0.Requirements
 
     pip3 install -r requirements.txt
        
-### Download the source code
+### 1.Download the source code
 
     git clone https://github.com/AlexeyAB/darknet.git
     cd darknet
 
-    vim Makefile
+    gedit Makefile
 
     GPU=1
     CUDNN=1 
@@ -30,15 +30,17 @@
     
     make
 
+***
 
-### Download pre-trained weights file
+### 2.Download pre-trained weights file
 
 [Google drive] - [yolov4.conv.137](https://drive.google.com/file/d/1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp/view)
 
 [Baidu drive] - [yolov4.conv.137](https://pan.baidu.com/s/1OvuN0CeS7RFj-bdM0d25AA)  __code: nppt__
 
-    
-### Image labeling
+***
+
+### 3.Image labeling
 
 LabelImg is a graphical image annotation tool - [labelImg](https://github.com/tzutalin/labelImg)
 
@@ -59,10 +61,11 @@ Ubuntu Linux Python3 + Qt5
  * labels -- Store all __[.txt]__ file (convert all __[.xml]__ file to __[.txt]__ file)
    
        python3 ./tools/voc_label.py (convert xml2txt and check your file paths)
-       
-###  Make img path [.txt] file
+***
 
-#### First you have to devide your dataset into train dataset and validation dataset.
+###  4.Make img path [.txt] file
+
+##### First you have to devide your dataset into train dataset and validation dataset.
 
     python3 ./tools/img2train.py [img path]
       
@@ -74,7 +77,9 @@ Ubuntu Linux Python3 + Qt5
  * object_train.txt -- Store all train_img __absolute path__
  * object_val.txt -- Store all val_img __absolute path__
 
-### Make [.names] [.data] and [.cfg] file
+***
+
+### 5.Make [.names] [.data] and [.cfg] file
  
  * __.names__ file
  
@@ -122,7 +127,9 @@ Ubuntu Linux Python3 + Qt5
       - [yolov4-custom.cfg#L1051](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L1051)
       - [yolov4-custom.cfg#L1139](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L1139)
 
-## Training
+***
+
+### 5.Training
 
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/Train-a-YOLOv4-model/imgs/chart_yolov4-custom.png" width="60%" height="60%">
  
@@ -134,7 +141,7 @@ Ubuntu Linux Python3 + Qt5
 
         sudo ./darknet detector train [obj.data path] [yolov4-custom.cfg path]  yolov4.conv.137 -gpus 0,1,2 -map
 
- ## Testing
+ ### 6.Testing
 
 <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/Train-a-YOLOv4-model/imgs/yolov4.png" width="60%" height="60%">
 
