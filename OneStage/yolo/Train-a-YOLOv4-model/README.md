@@ -106,7 +106,10 @@ Ubuntu Linux Python3 + Qt5
     * change line subdivisions to subdivisions=16 (According to the GPU configuration, it can be adjusted to 32 or 64.)
     * change line max_batches to (classes*2000 but not less than number of training images, and not less than 6000), f.e. max_batches=6000 if you train for 3 classes
     * change line steps to __80% and 90%__ of max_batches, f.e. steps=4800,5400
-    * set network size width=416 height=416 or any value multiple of 32: https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L8-L9
+    * set network size width=416 height=416 or any value multiple of 32:  
+    
+          [yolov4-custom.cfg#L8-L9](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/3629dc1d34091aaf10ccaab5221095c7ff1fb4c1/OneStage/yolo/Train-a-YOLOv4-model/yolov4-custom.cfg#L8-L9)
+
 change line classes=80 to your number of objects in each of 3 [yolo]-layers:
 
       - https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L610
