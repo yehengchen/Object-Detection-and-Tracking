@@ -1,5 +1,5 @@
 # How to train YOLOv4 model on own dataset
-
+__中文文档 - [[CSDN]](https://blog.csdn.net/weixin_38107271/article/details/106478275)__
 ## Environment
  * Ubuntu 16.04/18.04
  * CUDA 10.0
