@@ -8,10 +8,11 @@ __Object Tracking & Counting Demo - [[YouTube]](https://www.youtube.com/watch?v=
 __Development Environment: [Deep-Learning-Environment-Setup](https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup)__ 
 
 * OpenCV
-* NumPy
 * sklean
-* Pillow
-* tensorflow-gpu 1.10.0 
+* pillow
+* numpy 1.15.0
+* tensorflow-gpu 1.13.1
+* CUDA 10.0
 ***
 
 It uses:
