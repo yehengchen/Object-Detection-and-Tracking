@@ -1,7 +1,7 @@
 # YOLOv4 + Deep_SORT
 
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/output.gif" width="40%" height="40%"> <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/TownCentreXVID_output.gif" width="40%" height="40%">
-<img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/yolo_img/output_person_315_1120_s.gif" width="40%" height="40%"> <img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/img/output_car_143.gif" width="40%" height="40%">
+<img src="https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/deep_sort_yolov4/output/comparison.png" width="81%" height="81%"> 
 
 __Object Tracking & Counting Demo - [[BiliBili]](https://www.bilibili.com/video/BV1Ug4y1i71w#reply3014975828)  [[Chinese Version]](https://blog.csdn.net/weixin_38107271/article/details/96741706)__
 ## Requirement
