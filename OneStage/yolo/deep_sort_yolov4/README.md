@@ -17,7 +17,7 @@ __Development Environment: [Deep-Learning-Environment-Setup](https://github.com/
 
 It uses:
 
-* __Detection__: [YOLOv4](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) to detect objects on each of the video frames. - 用自己的数据训练YOLOv3模型
+* __Detection__: [YOLOv4](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/OneStage/yolo/Train-a-YOLOv4-model) to detect objects on each of the video frames. - 用自己的数据训练YOLOv4模型
 
 * __Tracking__: [Deep_SORT](https://github.com/nwojke/deep_sort) to track those objects over different frames.
 
@@ -33,13 +33,13 @@ __1. Download the code to your computer.__
     
     git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
     
-__2. Download [[yolov4.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov3/model_data/`
+__2. Download [[yolov4.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov4/model_data/`
 
 *Here you can download my trained [[yolo-spp.h5]](https://pan.baidu.com/s/1DoiifwXrss1QgSQBp2vv8w&shfl=shareset) - `t13k` weights for detecting person/car/bicycle,etc.*
 
 __3. Convert the Darknet YOLO model to a Keras model:__
 ```
-$ python convert.py model_data/yolov3.cfg model_data/yolov3.weights model_data/yolo.h5
+$ python convert.py model_data/yolov4.cfg model_data/yolov4.weights model_data/yolo.h5
 ``` 
 __4. Run the YOLO_DEEP_SORT:__
 
@@ -67,13 +67,15 @@ __5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking objec
 
 ## Citation
 
-### YOLOv3 :
+### YOLOv4 :
 
-    @article{yolov3,
-    title={YOLOv3: An Incremental Improvement},
-    author={Redmon, Joseph and Farhadi, Ali},
-    journal = {arXiv},
-    year={2018}
+    @misc{bochkovskiy2020yolov4,
+    title={YOLOv4: Optimal Speed and Accuracy of Object Detection},
+    author={Alexey Bochkovskiy and Chien-Yao Wang and Hong-Yuan Mark Liao},
+    year={2020},
+    eprint={2004.10934},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
     }
 
 ### Deep_SORT :
@@ -98,7 +100,7 @@ __5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking objec
     doi={10.1109/WACV.2018.00087}
     }
     
-## Citation
+## Reference
 #### Github:deep_sort@[Nicolai Wojke nwojke](https://github.com/nwojke/deep_sort)
 #### Github:deep_sort_yolov3@[Qidian213 ](https://github.com/Qidian213/deep_sort_yolov3)
 #### Github:Deep-SORT-YOLOv4@[LeonLok](https://github.com/LeonLok/Deep-SORT-YOLOv4)
