@@ -34,9 +34,9 @@ __1. Download the code to your computer.__
     
     git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
     
-__2. Download [[yolov4.weights]](https://pjreddie.com/media/files/yolov3.weights)__ and place it in `deep_sort_yolov4/model_data/`
+__2. Download [[yolov4.weights]](https://drive.google.com/file/d/1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT/view) [[Baidu]](https://pan.baidu.com/s/1jRudrrXAS3DRGqT6mL4L3A ) - `mnv6` __ and place it in `deep_sort_yolov4/model_data/`
 
-*Here you can download my trained [[yolo-spp.h5]](https://pan.baidu.com/s/1DoiifwXrss1QgSQBp2vv8w&shfl=shareset) - `t13k` weights for detecting person/car/bicycle,etc.*
+*Here you can download my trained [[yolo4_weight.h5]](https://pan.baidu.com/s/1JuT4KCUFaE2Gvme0_S37DQ ) - `w17w` weights for detecting person/car/bicycle,etc.*
 
 __3. Convert the Darknet YOLO model to a Keras model:__
 ```
