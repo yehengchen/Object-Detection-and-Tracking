@@ -11,6 +11,7 @@ __Development Environment: [Deep-Learning-Environment-Setup](https://github.com/
 * sklean
 * pillow
 * numpy 1.15.0
+* torch 1.3.0
 * tensorflow-gpu 1.13.1
 * CUDA 10.0
 ***
