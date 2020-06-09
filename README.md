@@ -45,7 +45,7 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 
 ***
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="60%" height="60%">
-
+* #### YOLOv4 + SORT - Pedestrian Counting -[[Link]](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/OneStage/yolo/deep_sort_yolov4)
 * #### YOLOv3 + SORT - Pedestrian Counting - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 ***
 
