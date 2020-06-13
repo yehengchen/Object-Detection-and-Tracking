@@ -96,9 +96,9 @@ This project is ROS package of Mask R-CNN algorithm for object detection and seg
 
 # Paper list from 2014 to now(2019)
 
-[Computer-Vision-and-Robotics-Paper-List](https://github.com/yehengchen/Computer-Vision-and-Robotics-Paper-List)
-
 <img src="https://github.com/yehengchen/ObjectDetection/blob/master/img/deep_learning_object_detection_history.PNG" width="60%" height="60%">
+
+#### Robot Vision Paper List (3D object detection & 6D pose estimation) - [[Link]](https://github.com/yehengchen/Computer-Vision-and-Robotics-Paper-List)
 
 #### PapersWithCode: Browse > Computer Vision > Object Detection - [[Link]](https://paperswithcode.com/task/object-detection)
 
@@ -106,7 +106,7 @@ This project is ROS package of Mask R-CNN algorithm for object detection and seg
 
 #### ObjectDetection mAP & IoU - [[Link]](https://github.com/yehengchen/ObjectDetection/blob/master/mAP%26IoU.md)
 
-#### Robot Vision Paper List (3D object detection & 6D pose estimation) - [Link](https://github.com/yehengchen/Computer-Vision-and-Robotics-Paper-List/blob/master/README.md)
+
 
 *** 
 
