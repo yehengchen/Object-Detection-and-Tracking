@@ -45,7 +45,7 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 * #### YOLOv3 + Deep_SORT - Pedestrian&Car Counting - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/deep_sort_yolov3)
 
 ***
-<img src="https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo/yolo_img/sort_1.gif" width="60%" height="60%">
+<img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/sort_1.gif" width="60%" height="60%">
 
 * #### YOLOv3 + SORT - Pedestrian Counting - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 ***
