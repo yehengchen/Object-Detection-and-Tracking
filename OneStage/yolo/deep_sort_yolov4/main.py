@@ -116,19 +116,23 @@ def main(yolo):
             counter.append(int(track.track_id))
             bbox = track.to_tlbr()
             color = [int(c) for c in COLORS[indexIDs[i] % len(COLORS)]]
-            #print(frame_index)
-            list_file.write(str(frame_index)+',')
-            list_file.write(str(track.track_id)+',')
-            cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(color), 3)
-            b0 = str(bbox[0])#.split('.')[0] + '.' + str(bbox[0]).split('.')[0][:1]
-            b1 = str(bbox[1])#.split('.')[0] + '.' + str(bbox[1]).split('.')[0][:1]
-            b2 = str(bbox[2]-bbox[0])#.split('.')[0] + '.' + str(bbox[3]).split('.')[0][:1]
-            b3 = str(bbox[3]-bbox[1])
 
-            list_file.write(str(b0) + ','+str(b1) + ','+str(b2) + ','+str(b3))
-            #print(str(track.track_id))
-            list_file.write('\n')
-            #list_file.write(str(track.track_id)+',')
+            if writeVideo_flag:
+                #print(frame_index)
+                list_file.write(str(frame_index)+',')
+                list_file.write(str(track.track_id)+',')
+                b0 = str(bbox[0])#.split('.')[0] + '.' + str(bbox[0]).split('.')[0][:1]
+                b1 = str(bbox[1])#.split('.')[0] + '.' + str(bbox[1]).split('.')[0][:1]
+                b2 = str(bbox[2]-bbox[0])#.split('.')[0] + '.' + str(bbox[3]).split('.')[0][:1]
+                b3 = str(bbox[3]-bbox[1])
+
+                list_file.write(str(b0) + ','+str(b1) + ','+str(b2) + ','+str(b3))
+                #print(str(track.track_id))
+                list_file.write('\n')
+                #list_file.write(str(track.track_id)+',')
+                pass
+
+            cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(color), 3)
             cv2.putText(frame,str(track.track_id),(int(bbox[0]), int(bbox[1] -50)),0, 5e-3 * 150, (color),2)
             if len(class_names) > 0:
                class_name = class_names[0]
@@ -169,8 +173,6 @@ def main(yolo):
 
 
         fps  = ( fps + (1./(time.time()-t1)) ) / 2
-        out.write(frame)
-        frame_index = frame_index + 1
 
         # Press Q to stop!
         if cv2.waitKey(1) & 0xFF == ord('q'):
