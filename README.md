@@ -51,7 +51,7 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 * #### YOLOv3 + SORT - Pedestrian Counting - [[Link]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 ***
 
-### [Darknet_ROS](https://github.com/yehengchen/YOLOv3-ROS/tree/master/darknet_ros): Real-Time Object Detection and Rotation Grasp Detection With ROS 
+### [Darknet_ROS](https://github.com/yehengchen/YOLOv3-ROS/tree/master/darknet_ros): Real-Time Object Detection and Grasp Detection With ROS 
 
 <img src="https://github.com/yehengchen/YOLOv3-ROS/blob/master/darknet_ros/yolo_network_config/weights/output.gif" width="60%" height="60%">
 
@@ -67,7 +67,7 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="60%" height="100%">
 
-* #### YOLOv3 + OpenCV + ROS Melodic - Rotation Object Detection - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_grasp_detection_ros)
+* #### YOLOv3 + OpenCV + ROS Melodic - Object Detection (Rotated) - [[Link]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_grasp_detection_ros)
 
 ***
 ### [SSD](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/ssd): Single Shot MultiBox Detector
