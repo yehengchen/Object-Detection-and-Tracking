@@ -51,7 +51,7 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 * #### YOLOv3 + SORT - Pedestrian Counting - [[Here]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3_sort)
 ***
 
-### [Darknet_ROS](https://github.com/yehengchen/YOLOv3-ROS/tree/master/darknet_ros): Real-Time Object Detection and Grasp Detection With ROS 
+### [Darknet_ROS](https://github.com/yehengchen/YOLOv3-ROS/tree/master/darknet_ros): Real-Time Object Detection and Grasp Detection
 
 <img src="https://github.com/yehengchen/YOLOv3-ROS/blob/master/darknet_ros/yolo_network_config/weights/output.gif" width="60%" height="60%">
 
@@ -68,6 +68,14 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 <img src="https://github.com/yehengchen/video_demo/blob/master/video_demo/chair_pin.gif" width="60%" height="100%">
 
 * #### YOLOv3 + OpenCV + ROS Melodic - Object Detection (Rotated) - [[Here]](https://github.com/yehengchen/YOLOv3-ROS/tree/master/yolov3_grasp_detection_ros)
+
+***
+### [DeepLabv3+_ROS](https://arxiv.org/abs/1802.02611):Mars Rover - Real-Time Object Tracking
+<img src="https://github.com/HaosUtopia/Mars_Rover/blob/main/deeplabv3plus_ros/imgs/mars_rover_mastcam_rock_tracking.gif" width="60%" height="60%">
+
+* #### DeepLab + OpenCV + ROS Melodic/Gazebo - Object Tracking - [Here](https://github.com/HaosUtopia/Mars_Rover/tree/main/deeplabv3plus_ros)
+
+* #### Mars_Rover + ROS Melodic/Gazebo - [[Here]](https://github.com/HaosUtopia/Mars_Rover)
 
 ***
 ### [SSD](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/ssd): Single Shot MultiBox Detector
