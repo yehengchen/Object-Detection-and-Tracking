@@ -1,6 +1,6 @@
 Keras==2.3.1
 tensorflow-gpu==1.15.2
-numpy==1.15.0
+numpy==1.22.0
 opencv-python==3.4.4.19
 scikit-learn==0.21.2
 scipy==1.1.0
