@@ -32,7 +32,7 @@ git clone https://github.com/yehengchen/Object-Detection-and-Tracking.git
 
 ***
 ## [OneStage]
-### [YOLO](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection and Tracking
+### [YOLO-SORT](https://github.com/yehengchen/ObjectDetection/blob/master/OneStage/yolo): Real-Time Object Detection and Tracking
 
 * __How to train a YOLO model on custom images: YOLOv3 - [[Here]](https://github.com/yehengchen/ObjectDetection/tree/master/OneStage/yolo/yolov3) / YOLOv4 - [[Here]](https://github.com/yehengchen/Object-Detection-and-Tracking/tree/master/OneStage/yolo/Train-a-YOLOv4-model)__
 
