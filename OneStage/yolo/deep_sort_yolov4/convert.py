@@ -163,7 +163,7 @@ if __name__ == '__main__':
     model_path = 'yolo4_weight.h5'
     anchors_path = 'model_data/yolo4_anchors.txt'
     classes_path = 'model_data/coco_classes.txt'
-    weights_path = 'yolov4.weights'
+    weights_path = 'model_data/yolov4.weights'
 
     score = 0.5
     iou = 0.5
