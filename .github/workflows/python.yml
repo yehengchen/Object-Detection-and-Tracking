@@ -1,0 +1,31 @@
+name: CI
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install lightweight test deps
+        run: python -m pip install --quiet numpy scipy
+      - name: Syntax-check tracker projects
+        run: |
+          python -m compileall -q OneStage/yolo/deep_sort_yolov3
+          python -m compileall -q OneStage/yolo/deep_sort_yolov4
+          python -m compileall -q OneStage/yolo/yolov3_sort
+      - name: Assignment regression test (issue #92)
+        run: |
+          cd OneStage/yolo/deep_sort_yolov3
+          python ../tests/test_linear_assignment.py
+          cd ../deep_sort_yolov4
+          python ../tests/test_linear_assignment.py

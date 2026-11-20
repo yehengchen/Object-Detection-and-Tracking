@@ -160,16 +160,26 @@ class Yolo4(object):
         self.sess.close()
 
 if __name__ == '__main__':
-    model_path = 'yolo4_weight.h5'
-    anchors_path = 'model_data/yolo4_anchors.txt'
-    classes_path = 'model_data/coco_classes.txt'
-    weights_path = 'yolov4.weights'
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Convert darknet YOLOv4 weights to a Keras .h5 model.')
+    parser.add_argument('weights', nargs='?',
+                        default='model_data/yolov4.weights',
+                        help='darknet YOLOv4 weights file')
+    parser.add_argument('output', nargs='?',
+                        default='model_data/yolo4_weight.h5',
+                        help='output Keras .h5 path (matches the yolo.py '
+                             'default, so the model is ready to run)')
+    parser.add_argument('--anchors',
+                        default='model_data/yolo_anchors.txt')
+    parser.add_argument('--classes',
+                        default='model_data/coco_classes.txt')
+    args = parser.parse_args()
 
     score = 0.5
     iou = 0.5
 
-    model_image_size = (608, 608)
-
-    yolo4_model = Yolo4(score, iou, anchors_path, classes_path, model_path, weights_path)
-
+    yolo4_model = Yolo4(score, iou, args.anchors, args.classes, args.output,
+                        args.weights)
     yolo4_model.close_session()

@@ -1,4 +1,5 @@
 Keras==2.3.1
+h5py==2.10.0  # Keras 2.3 save/load breaks with h5py>=3 (issues #86, #109)
 tensorflow-gpu==1.13.1
 numpy==1.15.0
 opencv-python==4.2.0

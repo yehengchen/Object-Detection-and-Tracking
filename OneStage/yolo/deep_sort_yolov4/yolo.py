@@ -9,6 +9,26 @@ from yolo4.utils import letterbox_image
 import os
 from keras.utils import multi_gpu_model
 
+def _repair_h5_attrs(path):
+    """Re-store text top-level attributes as bytes.
+
+    Keras 2.2/2.3 calls .decode('utf-8') on attributes such as model_config
+    and keras_version; with h5py >= 3.0 those come back as str on Python 3,
+    which makes load_model raise AttributeError (issue #109). Repair the
+    .h5 in place so the stock loader works afterwards.
+    """
+    import h5py
+    repaired = False
+    with h5py.File(path, 'r+') as f:
+        for key in ('model_config', 'keras_version'):
+            value = f.attrs.get(key)
+            if isinstance(value, str):
+                del f.attrs[key]
+                f.attrs.create(key, value.encode('utf-8'))
+                repaired = True
+    return repaired
+
+
 class YOLO(object):
     def __init__(self):
         self.model_path = './model_data/yolo4_weight.h5'
@@ -43,7 +63,17 @@ class YOLO(object):
         model_path = os.path.expanduser(self.model_path)
         assert model_path.endswith('.h5'), 'Keras model or weights must be a .h5 file.'
 
-        self.yolo_model = load_model(model_path, custom_objects={'Mish': Mish}, compile=False)
+        try:
+            self.yolo_model = load_model(model_path, custom_objects={'Mish': Mish},
+                                         compile=False)
+        except AttributeError:
+            # h5py >= 3.0 returns str attributes where Keras 2.3 expects
+            # bytes ("'str' object has no attribute 'decode'", issue #109).
+            # Repair the file once and retry; re-raise anything unrelated.
+            if not _repair_h5_attrs(model_path):
+                raise
+            self.yolo_model = load_model(model_path, custom_objects={'Mish': Mish},
+                                         compile=False)
 
         print('{} model, anchors, and classes loaded.'.format(model_path))
 
