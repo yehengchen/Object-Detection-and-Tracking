@@ -1,11 +1,20 @@
 # vim: expandtab:ts=4:sw=4
 from __future__ import absolute_import
 import numpy as np
-from sklearn.utils.linear_assignment_ import linear_assignment
+from scipy.optimize import linear_sum_assignment
 from . import kalman_filter
 
 
 INFTY_COST = 1e+5
+
+
+def linear_assignment(cost_matrix):
+    # sklearn.utils.linear_assignment_ was removed in scikit-learn >= 0.23.
+    # scipy.optimize.linear_sum_assignment returns a tuple of row/col index
+    # arrays, but every call site in this project expects the sklearn-style Nx2
+    # array format, so convert it back here (fixes issue #92).
+    rows, cols = linear_sum_assignment(cost_matrix)
+    return np.stack((rows, cols), axis=1)
 
 
 def min_cost_matching(
