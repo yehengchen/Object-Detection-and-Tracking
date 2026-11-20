@@ -39,7 +39,8 @@ __2. Download [[yolov4.weights]](https://drive.google.com/file/d/1cewMfusmPjYWbr
 
 __3. Convert the Darknet YOLO model to a Keras model:__
 ```
-$ python convert.py model_data/yolov4.cfg model_data/yolov4.weights model_data/yolo.h5
+$ python convert.py model_data/yolov4.weights model_data/yolo4_weight.h5
+# or just: python convert.py   (same paths are the defaults)
 ``` 
 __4. Run the YOLO_DEEP_SORT:__
 
@@ -105,3 +106,20 @@ __5. Can change [deep_sort_yolov3/yolo.py] `__Line 100__` to your tracking objec
 #### Github:deep_sort_yolov3@[Qidian213 ](https://github.com/Qidian213/deep_sort_yolov3)
 #### Github:Deep-SORT-YOLOv4@[LeonLok](https://github.com/LeonLok/Deep-SORT-YOLOv4)
 
+
+## Troubleshooting
+
+- **`OSError: Unable to open file (truncated file ...)`** when loading
+  `model_data/*.h5`: the download was cut off mid-way (Google Drive blocks
+  large direct downloads). Re-download the weights and verify the size
+  (`yolov4.weights` is about 258 MB). Related: issues #126, #71.
+- **`AttributeError: 'str' object has no attribute 'decode'`** when loading a
+  model, or **`TypeError: a bytes-like object is required, not 'str'`** in
+  `convert.py` when saving one: Keras 2.3.1 is incompatible with h5py 3.x.
+  Install the pinned `h5py==2.10.0` from `requirements.txt`; recent
+  `yolo.py` also repairs affected `.h5` files automatically.
+  Related: issues #109, #86.
+- **`ModuleNotFoundError: sklearn.utils.linear_assignment_`** or
+  **`TypeError: tuple indices must be integers or slices, not tuple`** in the
+  tracker: fixed by the scipy-based `deep_sort/linear_assignment.py` wrapper
+  (issue #92, PR #134).
