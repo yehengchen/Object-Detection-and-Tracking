@@ -19,8 +19,15 @@ from __future__ import print_function
 
 from numba import jit
 import numpy as np
-from sklearn.utils.linear_assignment_ import linear_assignment
+from scipy.optimize import linear_sum_assignment
 from filterpy.kalman import KalmanFilter
+
+def linear_assignment(cost_matrix):
+  # sklearn.utils.linear_assignment_ was removed in scikit-learn >= 0.23; use
+  # scipy but convert the tuple output back to the sklearn-style Nx2 array
+  # format the call sites below expect (fixes issue #92).
+  rows, cols = linear_sum_assignment(cost_matrix)
+  return np.stack((rows, cols), axis=1)
 
 @jit
 def iou(bb_test,bb_gt):
